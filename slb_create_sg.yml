@@ -1,0 +1,44 @@
+---
+
+- name: Create a10.acos_axapi.a10_slb_server example playbook
+  connection: local
+  hosts: vthunder1
+#  vars_files:
+#    - vars/slb_srv_vars.yml
+  tasks:
+
+  - name: Include the variable file
+    include_vars: vars/slb_srv_vars.yml
+
+- name: Create a10.acos_axapi.a10_slb_service_group example playbook
+  connection: local
+  hosts: vthunder1
+  tasks:
+  - name: Create a10.acos_axapi.a10_slb_service_group instance
+    a10.acos_axapi.a10_slb_service_group:
+      ansible_host: "{{ansible_host}}"
+      ansible_username: admin
+      ansible_password: a10
+      ansible_port: 443
+      protocol: tcp
+      member_list:
+        - host: '10.20.42.1'
+          name: 'CDN--boarding1'
+          port: 80
+      lb_method: dst-ip-hash
+      name: CGN
+
+#  - name: Configure nodes based on IP address
+#    a10.acos_axapi.a10_slb_service_group_member:
+#      ansible_host: "{{ansible_host}}"
+#      ansible_username: admin
+#      ansible_password: a10
+#      ansible_port: 443
+#      name: "server1"
+#      port: 8080
+#      member_state: "enable"
+#      member_priority: 1
+#      service_group_name: "SG1"
+#      member_stats_data_disable: "false"
+
+

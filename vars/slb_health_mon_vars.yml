@@ -1,0 +1,14 @@
+health monitor MCM5-HTTP-HM
+  method http port 8080 expect 5.5.111 url GET /apiws/service/ping
+!
+health monitor MCM5-TSP-HM
+  method external program MCM5-TSP-HealthCheck.tcl
+!
+health monitor MCM6-CORE-HM
+  method http port 80 expect response-code 200 url GET /core/Ping
+!
+health monitor MCM6-WSAPI-HM
+  method external program MCM6-HM-Script.tcl
+!
+health monitor TXN-Router-HM
+  method http port 8090 expect response-code 200 url GET "/core/AppStatus/AcceptingTransactions\077token=GW1-a7872476-0f67-434b-b05a-b8f7182f4cd3"

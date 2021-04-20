@@ -1,0 +1,821 @@
+a10_slb_srv:
+  - name: R74ETDEVKBM002
+    host: 172.20.44.222
+    state: absent
+#    ports: 
+#      - 6443
+#      - 443
+
+  - name: Bamboo_Server
+    host: 10.5.0.30
+    state: absent
+##  port 80 tcp
+##!
+  - name: Boarding1 
+    host: 172.20.11.57
+    state: absent
+#  port 80 tcp
+#!
+  - name: CDN---QA-Boarding-01 
+    host: 172.20.30.59
+    state: absent
+#  port 80 tcp
+#!
+  - name: CDN---boarding1 
+    host: 172.20.11.59
+    state: absent
+#  port 80 tcp
+#!
+  - name: CHASE-Payment-Processor 
+    host: 206.253.180.250
+    state: absent
+#  port 12000 tcp
+#  port 12002 tcp
+#  port 14000 tcp
+#!
+  - name: Confluence-Servicedesk 
+    host: 172.20.44.116
+    state: absent
+#  port 8090 tcp
+#  port 8091 tcp
+#!
+  - name: Confluence-Test 
+    host: 172.20.44.115
+    state: absent
+#  port 8090 tcp
+#  port 8091 tcp
+#!
+  - name: Confluence-Test-Centos 
+    host: 172.20.44.114
+    state: absent
+#  port 8090 tcp
+#  port 8091 tcp
+#!
+  - name: DEMO-AIO 
+    host: 172.20.41.100
+    state: absent
+#  port 80 tcp
+#  port 5000 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT-912 
+    host: 172.20.41.101
+    state: absent
+#  port 22 tcp
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 2610 tcp
+#  port 3000 udp
+# #health-check-disable
+#  port 3001 tcp
+#  port 6000 tcp
+#  port 6443 tcp
+#!
+  - name: EM-UAT-96 
+    host: 172.20.41.95
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 2602 tcp
+#  port 3000 udp
+##health-check-disable
+#  port 3001 tcp
+#  port 6443 tcp
+#  port 6445 tcp
+#  port 6446 tcp
+#  port 8081 tcp
+#  port 8082 tcp
+#!
+  - name: EM-UAT-96-HA 
+    host: 172.20.41.116
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 2602 tcp
+#  port 3000 udp
+##health-check-disable
+#  port 3001 tcp
+#  port 6443 tcp
+#  port 6445 tcp
+#  port 6446 tcp
+#  port 8081 tcp
+#  port 8082 tcp
+#!
+  - name: EM-UAT-96BANK2 
+    host: 172.20.41.51
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2602 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 6443 tcp
+#!
+  - name: EM-UAT-BANK3 
+    host: 172.20.41.103
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#  port 6444 tcp
+#  port 6445 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT-BANK3DEV 
+    host: 172.20.41.109
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#  port 6444 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT-BANK3QA 
+    host: 172.20.41.110
+    state: absent
+#  port 22 tcp
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#  port 6444 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT96BANK 
+    host: 172.20.41.92
+    state: absent
+#  port 22 tcp
+#    no-ssl
+#  port 443 tcp
+#    no-ssl
+#  port 2600 tcp
+#    no-ssl
+#  port 2601 tcp
+#    no-ssl
+#  port 3000 udp
+#    no-ssl
+#health-check-disable
+#  port 3001 tcp
+#    no-ssl
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#    no-ssl
+#  port 6444 tcp
+#!
+  - name: EM-UAT96CONV 
+    host: 172.20.41.93
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT96SIMP 
+    host: 172.20.41.94
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#  port 8080 tcp
+#!
+  - name: EM-UAT98
+    host: 172.20.41.99
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 4000 tcp
+#  port 6443 tcp
+#!
+  - name: EM-UAT98DEMO1 
+    host: 172.20.41.98
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2602 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 4000 tcp
+#  port 6443 tcp
+#!
+  - name: GAT-AIO 
+    host: 172.20.44.206
+    state: absent
+  #health-check TXN-Router-HM
+#  port 80 tcp
+#  port 4500 tcp
+#  port 8090 tcp
+#!
+  - name: Geniusex---web1 
+    host: 172.20.12.110
+    state: absent
+#  port 80 tcp
+#!
+  - name: Geniusex---web2 
+    host: 172.20.12.160
+    state: absent
+#  port 80 tcp
+#!
+  - name: Ipayment---web1 
+    host: 172.20.12.114
+    state: absent
+#  port 80 tcp
+#!
+  - name: Ipayment---web2 
+    host: 172.20.12.164
+    state: absent
+#  port 80 tcp
+#!
+  - name: L75GWQAERED001 
+    host: 172.20.30.240
+    state: absent
+#  port 8102 tcp
+#!
+  - name: L75GWQAERED002 
+    host: 172.20.30.241
+    state: absent
+#  port 8102 tcp
+#!
+  - name: L75KBMETCAIOU01 
+    host: 172.20.41.200
+    state: absent
+#  port 6443 tcp
+#!
+  - name: L75M6LTERED001 
+    host: 172.20.36.240
+    state: absent
+#  port 8102 tcp
+#!
+  - name: L75M6LTERED002 
+    host: 172.20.36.241
+    state: absent
+#  port 8102 tcp
+#!
+  - name: L75M6STGRED001 
+    host: 172.20.11.230
+    state: absent
+#  port 8102 tcp
+#!
+  - name: L75M6STGRED002 
+    host: 172.20.11.231
+    state: absent
+#  port 8102 tcp
+#!
+  - name: LT-APPSVC-02 
+    host: 172.20.36.62
+    state: absent
+#  port 80 tcp
+#!
+  - name: LT-Boarding-01 
+    host: 172.20.36.59
+    state: absent
+#  port 80 tcp
+#!
+  - name: LT-Core-01 
+    state: absent
+    host: 172.20.36.85
+#  port 80 tcp
+#health-check MCM6-CORE-HM
+#!
+  - name: LT-Core-02 
+    host: 172.20.36.86
+    state: absent
+#  port 80 tcp
+#health-check MCM6-CORE-HM
+#!
+  - name: LT-EM-APP-01 
+    host: 172.20.36.110
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#!
+  - name: LT-EM-APP-02 
+    host: 172.20.36.111
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#!
+  - name: LT-RoamMerchant6-01 
+    host: 172.20.37.60
+    state: absent
+#  port 8080 tcp
+#!
+  - name: LT-RoamMerchant6-02 
+    host: 172.20.37.61
+    state: absent
+#  port 8080 tcp
+#!
+  - name: LT-TXN-Router-01 
+    host: 172.20.36.60
+    state: absent
+#  port 80 tcp
+#  port 4500 tcp
+#  port 8090 tcp
+#!
+  - name: LT-TXN-Router-02 
+    host: 172.20.36.61
+    state: absent
+#  port 80 tcp
+#  port 4500 tcp
+#  port 8090 tcp
+#!
+  - name: LT-TXN-Router-03 
+    host: 172.20.36.63
+    state: absent
+#  port 80 tcp
+#  port 9284 tcp
+#!
+  - name: LT-TXN-Router-04 
+    host: 172.20.36.64
+    state: absent
+#  port 80 tcp
+#  port 9284 tcp
+#!
+  - name: LT-WSAPI-1 
+    host: 172.20.37.91
+    state: absent
+#  port 80 tcp
+#health-check MCM6-WSAPI-HM
+#!
+  - name: LT-WSAPI-2 
+    host: 172.20.37.92
+    state: absent
+#  port 80 tcp
+#health-check MCM6-WSAPI-HM
+#!
+  - name: LT-agents-web1 
+    host: 172.20.37.102
+    state: absent
+#  port 80 tcp
+#!
+  - name: LT-myroam-web1 
+    host: 172.20.37.100
+    state: absent
+#  port 80 tcp
+#!
+  - name: LT-support-web1 
+    host: 172.20.37.101
+    state: absent
+#  port 80 tcp
+#!
+
+  - name: LTEKBM01
+    host: 172.20.36.100
+    state: absent
+#  port 6443 tcp
+#!
+  - name: LTINGTOKEN01
+    host: 172.20.36.90
+    state: absent
+#  port 8080 tcp
+#!
+  - name: LTINGTOKEN02
+    host: 172.20.36.91
+    state: absent
+#  port 8080 tcp
+#!
+  - name: MCM5-UAT-05
+    host: 172.20.41.57
+    state: absent
+#  port 80 tcp
+#  port 8080 tcp
+#  port 10000 tcp
+#  port 10001 tcp
+#!
+  - name: MCM5-WEB-TEST
+#health-Check
+    host: 172.20.44.95
+    state: absent
+  #health-check MCM5-HTTP-HM
+#  port 8080 tcp
+#!
+  - name: Mattermost
+    host: 172.20.44.60
+    state: absent
+#  port 8065 tcp
+#!
+  - name: Mobile-LT-01
+    host: 172.20.36.87
+    state: absent
+#  port 8080 tcp
+#!
+  - name: Mobile-LT-02
+    host: 172.20.36.88
+    state: absent
+#  port 8080 tcp
+#!
+  - name: MySageMobileSignUp---web1
+    host: 172.20.12.120
+    state: absent
+#  port 80 tcp
+#!
+  - name: MySageMobileSignUp---web2
+    host: 172.20.12.170
+    state: absent
+#  port 80 tcp
+#!
+  - name: NGP---web1
+    host: 172.20.12.117
+    state: absent
+#  port 80 tcp
+#!
+  - name: NGP---web2
+    host: 172.20.12.167
+    state: absent
+#  port 80 tcp
+#!
+  - name: Nagios
+    host: 172.20.44.254
+    state: absent
+#  port 22 tcp
+#  port 80 tcp
+#!
+  - name: QA-APPSVC-02
+    host: 172.20.30.62
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Boarding-01
+    host: 172.20.30.51
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Boarding-02
+    host: 172.20.30.53
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-CDN-NEW-01
+    host: 172.20.30.57
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-CDN-NEW-02
+    host: 172.20.30.58
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-CaptureRepo-01
+    host: 172.20.31.192
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-CaptureRepo-02
+    host: 172.20.31.193
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Core-01
+    host: 172.20.30.85
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Core-02
+    host: 172.20.30.86
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-EM-APP-01
+    host: 172.20.30.110
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#!
+  - name: QA-EM-APP-02
+    host: 172.20.30.111
+    state: absent
+#  port 443 tcp
+#  port 2600 tcp
+#  port 2601 tcp
+#  port 3000 udp
+#health-check-disable
+#  port 3001 tcp
+#  port 3010 udp
+#health-check-disable
+#  port 3011 tcp
+#  port 6443 tcp
+#!
+  - name: QA-HD-web1
+    host: 172.20.31.109
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-HD-web2
+    host: 172.20.31.159
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Mobile-01
+    host: 172.20.30.70
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-Mobile-02
+    host: 172.20.30.71
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-NCRRingup-01
+    host: 172.20.31.64
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-NCRSilver-01
+    host: 172.20.31.66
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-Payment-01
+    host: 172.20.30.52
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Payment-02
+    host: 172.20.30.54
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Payroc-web1
+    host: 172.20.31.121
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-Payroc-web2
+    host: 172.20.31.171
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-RM6-FAPS-1
+    host: 172.20.31.70
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-RM6-PAIDE-1
+    host: 172.20.31.74
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-RM6-PAYA-1
+    host: 172.20.31.72
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-RM6-Payroc-1
+    host: 172.20.31.68
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-ROAMMerchant6-01
+    host: 172.20.31.60
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-ROAMMerchant6-02
+    host: 172.20.31.61
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-TXN-Router-01
+    host: 172.20.30.60
+    state: absent
+#  port 80 tcp
+#  port 4500 tcp
+#  port 8090 tcp
+#!
+  - name: QA-TXN-Router-02
+    host: 172.20.30.61
+    state: absent
+#  port 80 tcp
+#  port 4500 tcp
+#  port 9284 tcp
+#!
+  - name: QA-Token-APP-01
+    host: 172.20.33.50
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-Token-APP-02
+    host: 172.20.33.51
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-TomcatSupport-01
+    host: 172.20.31.62
+    state: absent
+#  port 8080 tcp
+#!
+  - name: QA-WSAPI-1
+    host: 172.20.31.91
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-WSAPI-2
+    host: 172.20.31.92
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-agents-web1
+    host: 172.20.31.102
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-agents-web2
+    host: 172.20.31.152
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-geniusex-web1
+    host: 172.20.31.110
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-geniusex-web2
+    host: 172.20.31.160
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-ipayment-web1
+    host: 172.20.31.114
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-ipayment-web2
+    host: 172.20.31.164
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mcm4api-web1
+    host: 172.20.31.108
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mcm4api-web2
+    host: 172.20.31.158
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-myroam-web1
+    host: 172.20.31.100
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-myroam-web2
+    host: 172.20.31.150
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mysagemobile-web1
+    host: 172.20.31.104
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mysagemobile-web2
+    host: 172.20.31.154
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mysagemobilesignup-web1
+    host: 172.20.31.120
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-mysagemobilesignup-web2
+    host: 172.20.31.170
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-myuswipe-web1
+    host: 172.20.31.112
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-myuswipe-web2
+    host: 172.20.31.162
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-ngp-web1
+    host: 172.20.31.117
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-ngp-web2
+    host: 172.20.31.167
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-paymentjack-web1
+    host: 172.20.31.103
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-paymentjack-web2
+    host: 172.20.31.153
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-staples-web1
+    host: 172.20.31.116
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-staples-web2
+    host: 172.20.31.166
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-subway-web1
+    host: 172.20.31.115
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-subway-web2
+    host: 172.20.31.165
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-support-web1
+    host: 172.20.31.101
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-support-web2
+    host: 172.20.31.151
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-thdmyroam-web1
+    host: 172.20.31.119
+    state: absent
+#  port 80 tcp
+#!
+  - name: QA-thdmyroam-web2
+    host: 172.20.31.169
+    state: absent

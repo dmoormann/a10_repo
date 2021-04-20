@@ -1,0 +1,90 @@
+- hosts: all
+  name: Create basic LB graph with virtual server, service group, members, and health monitors 
+  connection: local
+
+  tasks:
+
+  - name: Include the server vars
+    include_vars: vars/slb_service_group_member_vars.yml
+  - name: Include the group vars
+    include_vars: vars/slb_service_group_vars.yml
+
+  - name: Create a10_health_monitor instance
+    a10.acos_axapi.a10_health_monitor:
+      ansible_host: "{{ ansible_host }}"
+      ansible_username: "{{ ansible_username }}"
+      ansible_password: "{{ ansible_password }}"
+      ansible_port: "{{ ansible_port }}"
+      name: tcp_8080
+      method:
+        tcp:
+          method-tcp: 1
+          tcp-port: 80
+      retry: 2
+      interval: 2
+      timeout: 1
+
+  - name: Create service group
+    a10.acos_axapi.a10_slb_service_group:
+      ansible_host: "{{ ansible_host }}"
+      ansible_username: "{{ ansible_username }}"
+      ansible_password: "{{ ansible_password }}"
+      ansible_port: "{{ ansible_port }}"
+      name: "{{ item.name }}"
+      health_check: tcp_8080
+      protocol: "{{ item.protocol}}"
+      #lc_method: "{{ item.method}}"
+    with_items:
+      - "{{ slb_service_group_vars }}"
+    when: item.name is defined and slb_service_group_vars is iterable
+
+  - name: Associate member server
+    a10.acos_axapi.a10_slb_service_group_member:
+      ansible_host: "{{ ansible_host }}"
+      ansible_username: "{{ ansible_username }}"
+      ansible_password: "{{ ansible_password }}"
+      ansible_port: "{{ ansible_port }}"
+      name: "{{ item.name }}"
+      host: "{{ item.host }}"
+      service_group_name: "{{ item.service_group_name}}"
+      port: "{{ item.port }}"
+    with_items:
+      - "{{ a10_sg_member_vars }}"
+    when: item.host is defined and a10_sg_member_vars is iterable
+
+
+#  - name: Associate member server
+#    a10.acos_axapi.a10_slb_service_group_member:
+#      ansible_host: "{{ ansible_host }}"
+#      ansible_username: "{{ ansible_username }}"
+#      ansible_password: "{{ ansible_password }}"
+#      ansible_port: "{{ ansible_port }}"
+#      name: server2
+#      host: "10.10.20.80"
+#      service_group_name: sg1_80
+#      port: 80
+
+#  - name: Create virtual server 
+#    a10.acos_axapi.a10_slb_virtual_server:
+#      ansible_host: "{{ ansible_host }}"
+#      ansible_username: "{{ ansible_username }}"
+#      ansible_password: "{{ ansible_password }}"
+#      ansible_port: "{{ ansible_port }}"
+#      ip_address: 192.168.42.1
+#      netmask: 255.255.255.0
+#      name: vs1
+#      enable_disable_action: disable-when-all-ports-down
+
+#  - name: Create virtual port for vs1 
+#    a10.acos_axapi.a10_slb_virtual_server_port:
+#      ansible_host: "{{ ansible_host }}"
+#      ansible_username: "{{ ansible_username }}"
+#      ansible_password: "{{ ansible_password }}"
+#      ansible_port: "{{ ansible_port }}"
+#      state: present
+#      virtual_server_name: vs1
+#      protocol: "tcp"
+#      port_number: 80
+#      service_group: sg1_80
+#      ha_conn_mirror: 1
+#      auto: 1

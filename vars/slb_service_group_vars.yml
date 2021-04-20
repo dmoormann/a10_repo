@@ -1,0 +1,954 @@
+slb_service_group_vars:
+  - name: Agents 
+    protocol: tcp
+
+  - name: Bamboo_Server_80 
+    protocol: tcp
+
+  - name: CDN
+    protocol: tcp
+
+  - name: CDN---QA-Boarding-01
+    protocol: tcp
+
+  - name: CHASE-Payment-Processor_12000
+    protocol: tcp
+
+  - name: CHASE-Payment-Processor_12002
+    protocol: tcp
+
+  - name: CHASE-Payment-Processor_14000
+    protocol: tcp
+
+  - name: Confluence-Servicedesk_8090
+    protocol: tcp
+
+  - name: Confluence-Servicedesk_8091
+    protocol: tcp
+
+  - name: Confluence-Test_8090
+    protocol: tcp
+
+  - name: Confluence-Test_8091
+    protocol: tcp
+
+  - name: Confluence-test_8090
+    protocol: tcp
+
+  - name: Cynergy---vwalaamobile
+    protocol: tcp
+
+  - name: DEMO-DEMO-AIO
+    protocol: tcp
+
+  - name: DEMO-DEMO-AIO_5000
+    protocol: tcp
+
+  - name: DEMO-DEMO-AIO_8080
+    protocol: tcp
+
+  - name: DEVKB_6443
+    protocol: tcp
+
+  - name: EM-UAT-912_22
+    protocol: tcp
+
+  - name: EM-UAT-912_2600
+    protocol: tcp
+
+  - name: EM-UAT-912_2601
+    protocol: tcp
+
+  - name: EM-UAT-912_2610
+    protocol: tcp
+
+  - name: EM-UAT-912_3000
+    protocol: udp
+
+  - name: EM-UAT-912_3001
+    protocol: tcp
+
+  - name: EM-UAT-912_443
+    protocol: tcp
+
+  - name: EM-UAT-912_6443
+    protocol: tcp
+
+  - name: EM-UAT-96-8082
+    protocol: tcp
+
+  - name: EM-UAT-96BANK2_2600
+    protocol: tcp
+
+  - name: EM-UAT-96BANK2_2602
+    protocol: tcp
+
+  - name: EM-UAT-96BANK2_3000
+    protocol: udp
+
+  - name: EM-UAT-96BANK2_3001
+    protocol: tcp
+
+  - name: EM-UAT-96BANK2_443
+    protocol: tcp
+
+  - name: EM-UAT-96BANK2_6443
+    protocol: tcp
+
+  - name: EM-UAT-96_2600
+    protocol: tcp
+
+  - name: EM-UAT-96_2601
+    protocol: tcp
+
+  - name: EM-UAT-96_2602
+    protocol: tcp
+
+  - name: EM-UAT-96_3000
+    protocol: udp
+
+  - name: EM-UAT-96_3001
+    protocol: tcp
+
+  - name: EM-UAT-96_443
+    protocol: tcp
+
+  - name: EM-UAT-96_6443
+    protocol: tcp
+
+  - name: EM-UAT-96_6445
+    protocol: tcp
+
+  - name: EM-UAT-96_6446
+    protocol: tcp
+
+  - name: EM-UAT-96_8081
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_2600
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_2601
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_3000
+    protocol: udp
+
+  - name: EM-UAT-BANK3DEV_3001
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_3010
+    protocol: udp
+
+  - name: EM-UAT-BANK3DEV_3011
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_6443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_6444
+    protocol: tcp
+
+  - name: EM-UAT-BANK3DEV_8080
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_22
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_2600
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_2601
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_3000
+    protocol: udp
+
+  - name: EM-UAT-BANK3QA_3001
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_3010
+    protocol: udp
+
+  - name: EM-UAT-BANK3QA_3011
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_6443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_6444
+    protocol: tcp
+
+  - name: EM-UAT-BANK3QA_8080
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_2600
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_2601
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_3000
+    protocol: udp
+
+  - name: EM-UAT-BANK3_3001
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_3010
+    protocol: udp
+
+  - name: EM-UAT-BANK3_3011
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_6443
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_6444
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_6445
+    protocol: tcp
+
+  - name: EM-UAT-BANK3_8080
+    protocol: tcp
+
+  - name: EM-UAT96CONV_2600
+    protocol: tcp
+
+  - name: EM-UAT96CONV_2601
+    protocol: tcp
+
+  - name: EM-UAT96CONV_3000
+    protocol: udp
+
+  - name: EM-UAT96CONV_3001
+    protocol: tcp
+
+  - name: EM-UAT96CONV_3010
+    protocol: udp
+
+  - name: EM-UAT96CONV_3011
+    protocol: tcp
+
+  - name: EM-UAT96CONV_443
+    protocol: tcp
+
+  - name: EM-UAT96CONV_6443
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_2600
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_2601
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_3000
+    protocol: udp
+
+  - name: EM-UAT96SIMP_3001
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_3010
+    protocol: udp
+
+  - name: EM-UAT96SIMP_3011
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_443
+    protocol: tcp
+
+  - name: EM-UAT96SIMP_6443
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_2600
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_2602
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_3000
+    protocol: udp
+
+  - name: EMUAT98-DEMO1_3001
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_4000
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_443
+    protocol: tcp
+
+  - name: EMUAT98-DEMO1_6443
+    protocol: tcp
+
+  - name: EMUAT98-HEALTH_2600
+    protocol: tcp
+
+  - name: EMUAT98-HEALTH_3000
+    protocol: udp
+
+  - name: EMUAT98-HEALTH_3001
+    protocol: tcp
+
+  - name: EMUAT98-HEALTH_4000
+    protocol: tcp
+
+  - name: EMUAT98-HEALTH_443
+    protocol: tcp
+
+  - name: EMUAT98-HEALTH_6443
+    protocol: tcp
+
+  - name: EMV-AIO_80
+    protocol: tcp
+
+  - name: EMV-AIO_9998
+    protocol: tcp
+
+  - name: EM_UAT_912_6000
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_22
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_2600
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_2601
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_3000
+    protocol: udp
+
+  - name: EM_UAT_ELAVON_BANKCARD_3001
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_3010
+    protocol: udp
+
+  - name: EM_UAT_ELAVON_BANKCARD_3011
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_443
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_6443
+    protocol: tcp
+
+  - name: EM_UAT_ELAVON_BANKCARD_6444
+    protocol: tcp
+
+  - name: GAT-AIO_4500
+    protocol: tcp
+
+  - name: GAT-AIO_80
+    protocol: tcp
+
+  - name: GAT-AIO_8090
+    protocol: tcp
+
+  - name: Geniusex
+    protocol: tcp
+
+  - name: Ipayment
+    protocol: tcp
+
+  - name: IsoSupport
+    protocol: tcp
+
+  - name: LT-APPSVC-02
+    protocol: tcp
+
+  - name: LT-Agents
+    protocol: tcp
+
+  - name: LT-Boarding_80
+    protocol: tcp
+
+  - name: LT-Core
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-EM-APP_2600
+    protocol: tcp
+
+  - name: LT-EM-APP_2601
+    protocol: tcp
+
+  - name: LT-EM-APP_3000
+    protocol: udp
+
+  - name: LT-EM-APP_3001
+    protocol: tcp
+
+  - name: LT-EM-APP_3010
+    protocol: udp
+
+  - name: LT-EM-APP_3011
+    protocol: tcp
+
+  - name: LT-EM-APP_443
+    protocol: tcp
+
+  - name: LT-EM-APP_6443
+    protocol: tcp
+
+  - name: LT-INGTOKEN_8080
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-Mobile_8080
+    protocol: tcp
+
+  - name: LT-MyRoam
+    protocol: tcp
+
+  - name: LT-Redis_8102
+    protocol: tcp
+
+  - name: LT-RoamMerchant6_8080
+    protocol: tcp
+
+  - name: LT-Support
+    protocol: tcp
+
+  - name: LT-TXN-2_80
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN-new-urlswitching
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN-new-urlswitching_9284
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN-urlswitching
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN_4500
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN_80
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-TXN_8090
+    protocol: tcp
+    method: least-connection
+
+  - name: LT-WSAPI-urlswithing
+    protocol: tcp
+
+  - name: LT-WSAPI_80
+    protocol: tcp
+
+  - name: LogStash_5044
+    protocol: tcp
+
+  - name: LogStash_5045
+    protocol: tcp
+
+  - name: LogStash_9200
+    protocol: tcp
+
+  - name: MCMAPI
+    protocol: tcp
+
+  - name: MPEA-APP-UAT_80
+    protocol: tcp
+
+  - name: MPEA-APP-UAT_8888
+    protocol: tcp
+
+  - name: MasterKB_6443
+    protocol: tcp
+
+  - name: Mattermost_8065
+    protocol: tcp
+
+  - name: MyRM6_8080
+    protocol: tcp
+
+  - name: MySageMobileSignUp
+    protocol: tcp
+
+  - name: MySagemobile
+    protocol: tcp
+
+  - name: Myroam
+    protocol: tcp
+
+  - name: NGP
+    protocol: tcp
+
+  - name: Nagios_22
+    protocol: tcp
+
+  - name: Nagios_80
+    protocol: tcp
+
+  - name: PaymentJack
+    protocol: tcp
+
+  - name: QA-APPSVC-02
+    protocol: tcp
+
+  - name: QA-Agents
+    protocol: tcp
+
+  - name: QA-Boarding_80
+    protocol: tcp
+
+  - name: QA-CDN-NEW_80
+    protocol: tcp
+
+  - name: QA-CaptureRepo_80
+    protocol: tcp
+
+  - name: QA-Core
+    protocol: tcp
+    method: least-connection
+
+  - name: QA-EM-APP_2600
+    protocol: tcp
+
+  - name: QA-EM-APP_2601
+    protocol: tcp
+
+  - name: QA-EM-APP_3000
+    protocol: udp
+
+  - name: QA-EM-APP_3001
+    protocol: tcp
+
+  - name: QA-EM-APP_3010
+    protocol: udp
+
+  - name: QA-EM-APP_3011
+    protocol: tcp
+
+  - name: QA-EM-APP_443
+    protocol: tcp
+
+  - name: QA-EM-APP_6443
+    protocol: tcp
+
+  - name: QA-Geniusex
+    protocol: tcp
+
+  - name: QA-HD
+    protocol: tcp
+
+  - name: QA-Mobile_8080
+    protocol: tcp
+
+  - name: QA-MyRoam
+    protocol: tcp
+
+  - name: QA-MySageMobile
+    protocol: tcp
+
+  - name: QA-MySageMobileSignup
+    protocol: tcp
+
+  - name: QA-MyUswipe
+    protocol: tcp
+
+  - name: QA-NCRRingup_8080
+    protocol: tcp
+
+  - name: QA-NCRSilver_8080
+    protocol: tcp
+
+  - name: QA-PaymentJack
+    protocol: tcp
+
+  - name: QA-Payment_80
+    protocol: tcp
+
+  - name: QA-Payroc
+    protocol: tcp
+
+  - name: QA-RM6-FAPS_8080
+    protocol: tcp
+
+  - name: QA-RM6-PAIDE_8080
+    protocol: tcp
+
+  - name: QA-RM6-PAYA_8080
+    protocol: tcp
+
+  - name: QA-ROAMMerchant6_8080
+    protocol: tcp
+
+  - name: QA-Redis_8102
+    protocol: tcp
+
+  - name: QA-Staples
+    protocol: tcp
+
+  - name: QA-Subway
+    protocol: tcp
+
+  - name: QA-Support
+    protocol: tcp
+
+  - name: QA-TXN-2_80
+    protocol: tcp
+
+  - name: QA-TXN-new-urlswitching
+    protocol: tcp
+
+  - name: QA-TXN-new-urlswitching_9284
+    protocol: tcp
+    method: least-connection
+
+  - name: QA-TXN-urlswitching
+    protocol: tcp
+
+  - name: QA-TXN_4500
+    protocol: tcp
+
+  - name: QA-TXN_80
+    protocol: tcp
+
+  - name: QA-TXN_8090
+    protocol: tcp
+
+  - name: QA-Token-APP_8080
+    protocol: tcp
+    method: least-connection
+
+  - name: QA-TomcatSupport_8080
+    protocol: tcp
+
+  - name: QA-TransService
+    protocol: tcp
+
+  - name: QA-Vantiv
+    protocol: tcp
+
+  - name: QA-VwalaaMobile
+    protocol: tcp
+
+  - name: QA-WSAPI-urlswitching
+    protocol: tcp
+
+  - name: QA-WSAPI_80
+    protocol: tcp
+
+  - name: QA-iPayment
+    protocol: tcp
+
+  - name: QA-mcm4api
+    protocol: tcp
+
+  - name: QA-ngp
+    protocol: tcp
+
+  - name: QA-thdmyroam
+    protocol: tcp
+
+  - name: QA-vng
+    protocol: tcp
+
+  - name: RS6-LT_8080
+    protocol: tcp
+
+  - name: RS6-QA_8080
+    protocol: tcp
+
+  - name: RS6-STG_8080
+    protocol: tcp
+
+  - name: STG-Boarding_80
+    protocol: tcp
+
+  - name: STG-CaptureRepo_80
+    protocol: tcp
+
+  - name: STG-DBC-SSRS_80
+    protocol: tcp
+
+  - name: STG-EM-APP_2600
+    protocol: tcp
+
+  - name: STG-EM-APP_2601
+    protocol: tcp
+
+  - name: STG-EM-APP_3000
+    protocol: udp
+
+  - name: STG-EM-APP_3001
+    protocol: tcp
+
+  - name: STG-EM-APP_3010
+    protocol: udp
+
+  - name: STG-EM-APP_3011
+    protocol: tcp
+
+  - name: STG-EM-APP_443
+    protocol: tcp
+
+  - name: STG-EM-APP_6443
+    protocol: tcp
+
+  - name: STG-Mobile
+    protocol: tcp
+
+  - name: STG-NCRRingup_8080
+    protocol: tcp
+
+  - name: STG-NCRSilver_8080
+    protocol: tcp
+
+  - name: STG-Payment_80
+    protocol: tcp
+
+  - name: STG-RM6-1stPay
+    protocol: tcp
+
+  - name: STG-RM6-Paya
+    protocol: tcp
+
+  - name: STG-RM6-Payroc
+    protocol: tcp
+
+  - name: STG-Redis_8102
+    protocol: tcp
+
+  - name: STG-TXN-2_80
+    protocol: tcp
+
+  - name: STG-TXN-new-urlswitching
+    protocol: tcp
+    method: least-connection
+
+  - name: STG-TXN-new-urlswitching_9284
+    protocol: tcp
+    method: least-connection
+
+  - name: STG-TXN-urlswitching
+    protocol: tcp
+    method: least-connection
+
+  - name: STG-TXN_8090
+    protocol: tcp
+
+  - name: STG-Token-APP_8080
+    protocol: tcp
+    method: least-connection
+
+  - name: STG-WSAPI-urlswitching
+    protocol: tcp
+
+  - name: STG-WSAPI_80
+    protocol: tcp
+
+  - name: STGCore
+    protocol: tcp
+    method: least-connection
+
+  - name: Staging-Syslog_514
+    protocol: udp
+
+  - name: Staples
+    protocol: tcp
+
+  - name: Subway
+    protocol: tcp
+
+  - name: THD
+    protocol: tcp
+
+  - name: THD-MyRoam
+    protocol: tcp
+
+  - name: TXNSTG-VIP_4500
+    protocol: tcp
+
+  - name: TXNSTG-VIP_80
+    protocol: tcp
+
+  - name: Transaction-Services
+    protocol: tcp
+
+  - name: UAT---DEV01_80
+    protocol: tcp
+
+  - name: UAT---DEV01_8080
+    protocol: tcp
+
+  - name: UAT---DWS-AIO
+    protocol: tcp
+
+  - name: UAT---EM-AIO_22
+    protocol: tcp
+
+  - name: UAT---EM-AIO_2600
+    protocol: tcp
+
+  - name: UAT---EM-AIO_443
+    protocol: tcp
+
+  - name: UAT---HDTEST4_80
+    protocol: tcp
+
+  - name: UAT---HDTEST4_8080
+    protocol: tcp
+
+  - name: UAT---HDTESTQP_80
+    protocol: tcp
+
+  - name: UAT---MCM-UAT
+    protocol: tcp
+
+  - name: UAT---MCM-UAT_10000
+    protocol: tcp
+
+  - name: UAT---MCM-UAT_5000
+    protocol: tcp
+
+  - name: UAT---MCM-UAT_8080
+    protocol: tcp
+
+  - name: UAT---MCM5QA05_10000
+    protocol: tcp
+
+  - name: UAT---MCM5QA05_10001
+    protocol: tcp
+
+  - name: UAT---MCM5QA05_22
+    protocol: tcp
+
+  - name: UAT---MCM5QA05_8080
+    protocol: tcp
+
+  - name: UAT---UAT01_80
+    protocol: tcp
+
+  - name: UAT---UAT01_8080
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_22
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_2600
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_2601
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_2602
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_3000
+    protocol: udp
+
+  - name: UAT-EM-MultiTenant_3001
+    protocol: tcp
+
+  - name: UAT-EM-MultiTenant_443
+    protocol: tcp
+
+  - name: UAT-HDTESTQP_8080
+    protocol: tcp
+
+  - name: UAT-HDTESTQP_9029
+    protocol: tcp
+
+  - name: UAT-LAMP-NEW_80
+    protocol: tcp
+
+  - name: UAT-LAMP_80
+    protocol: tcp
+
+  - name: UAT-MCM5-05
+    protocol: tcp
+
+  - name: UAT-Merchant-NCR-PayrocGo_10000
+    protocol: tcp
+
+  - name: UAT-Merchant-NCR-Silver_10000
+    protocol: tcp
+
+  - name: UAT-Merchant-NCR_10000
+    protocol: tcp
+
+  - name: UAT-Merchant-Paidegateway_10000
+    protocol: tcp
+
+  - name: UAT-Merchant-Paya_10000
+    protocol: tcp
+
+  - name: UAT-Merchant-Test_10000
+    protocol: tcp
+
+  - name: UAT-Merchant_10000
+    protocol: tcp
+
+  - name: UAT-RM6-FAPS_10000
+    protocol: tcp
+
+  - name: UAT02-APP_10000
+    protocol: tcp
+
+  - name: UAT02-APP_10001
+    protocol: tcp
+
+  - name: UAT02-WEB-APIWS_8080
+    protocol: tcp
+
+  - name: UAT02-WEB-GPS_8080
+    protocol: tcp
+
+  - name: UAT02-WEB-MR_8080
+    protocol: tcp
+
+  - name: UAT02-WEB-RS_8080
+    protocol: tcp
+
+  - name: UAT02-WEB-TD_8080
+    protocol: tcp
+
+  - name: UAT96CONV_8080
+    protocol: tcp
+
+  - name: UAT96SIMP_8080
+    protocol: tcp
+
+  - name: UAT96_8080
+    protocol: tcp
+
+  - name: VNB
+    protocol: tcp
+
+  - name: Vantiv-Myaccept
+    protocol: tcp
+
+  - name: em.uat96bank_8080
+    protocol: tcp
+
+  - name: myuswipe
+    protocol: tcp
+
+  - name: payrocgostg
+    protocol: tcp
+
+  - name: qapmtint02-urlswitching
+    protocol: tcp
+

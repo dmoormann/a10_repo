@@ -1,0 +1,33 @@
+---
+
+- name: Create a10.acos_axapi.a10_slb_server example playbook
+  connection: local
+  hosts: vthunder
+#  vars_files:
+#    - vars/slb_srv_vars.yml
+  tasks:
+
+  - name: Include the variable file
+    include_vars: vars/slb_srv_vars.yml
+
+  - name: Configure nodes based on IP address
+    a10.acos_axapi.a10_slb_server:
+#      ansible_host: 172.20.21.15
+#      ansible_username: admin
+#      ansible_password: a10
+#      ansible_port: 443
+      ansible_host: "{{ansible_host}}"
+      ansible_username: "{{ansible_username}}"
+      ansible_password: "{{ansible_password}}"
+      ansible_port: "{{ansible_port}}"
+      name: "{{ item.name }}"
+      state: "{{ item.state}}"
+      host: "{{ item.host }}"
+      action: enable
+      template_server: default
+      conn_limit: 1
+      weight: 1
+      stats_data_action: stats-data-enable
+    with_items:
+      - "{{ a10_slb_srv }}"
+    when: item.host is defined and a10_slb_srv is iterable

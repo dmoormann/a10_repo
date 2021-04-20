@@ -1,0 +1,17 @@
+slb_grp_vars:
+  - name: perf-pool
+    description: perf-pool
+    lb_method: round-robin
+    monitors:
+      - tcp
+    state: present
+    members:
+      - node: 192.168.100.35
+        name: perftest01
+        port: 443
+        state: present
+
+      - node: 192.168.100.36
+        name: perftest02
+        port: 443
+        state: present

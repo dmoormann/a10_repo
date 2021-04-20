@@ -1,0 +1,12 @@
+a10_slb_srv:
+  - name: server1
+    host: 10.10.20.2
+    state: present
+
+  - name: server2
+    host: 10.10.20.80
+    state: present
+#    ports:
+#      - 6443
+#      - 443
+

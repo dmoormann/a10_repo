@@ -1,0 +1,1413 @@
+slb_service_group_vars:
+  - name: Agents 
+    protocol: tcp
+#  member agents---web1 80
+#  member agents---web2 80
+
+  - name: Bamboo_Server_80 
+    protocol: tcp
+#  member Bamboo_Server 80
+
+  - name: CDN
+    protocol: tcp
+#  member CDN---boarding1 80
+
+  - name: CDN---QA-Boarding-01
+    protocol: tcp
+#  member CDN---QA-Boarding-01 80
+
+  - name: CHASE-Payment-Processor_12000
+    protocol: tcp
+#  member CHASE-Payment-Processor 12000
+
+  - name: CHASE-Payment-Processor_12002
+    protocol: tcp
+#  member CHASE-Payment-Processor 12002
+
+  - name: CHASE-Payment-Processor_14000
+    protocol: tcp
+#  member CHASE-Payment-Processor 14000
+
+  - name: Confluence-Servicedesk_8090
+    protocol: tcp
+#  member Confluence-Servicedesk 8090
+
+  - name: Confluence-Servicedesk_8091
+    protocol: tcp
+#  member Confluence-Servicedesk 8091
+
+  - name: Confluence-Test_8090
+    protocol: tcp
+#  member Confluence-Test-Centos 8090
+
+  - name: Confluence-Test_8091
+    protocol: tcp
+#  member Confluence-Test 8091
+
+  - name: Confluence-test_8090
+    protocol: tcp
+#  member Confluence-Test 8090
+
+  - name: Cynergy---vwalaamobile
+    protocol: tcp
+#  member vwalaamobile-web1 80
+#  member vwalaamobile-web2 80
+
+  - name: DEMO-DEMO-AIO
+    protocol: tcp
+#  member DEMO-AIO 80
+
+  - name: DEMO-DEMO-AIO_5000
+    protocol: tcp
+#  member DEMO-AIO 5000
+
+  - name: DEMO-DEMO-AIO_8080
+    protocol: tcp
+#  member DEMO-AIO 8080
+
+  - name: DEVKB_6443
+    protocol: tcp
+#  member " R74ETDEVKBM002 " 6443
+#  member "R74ETDEVKBM001 " 6443
+#  member R74ETDEVKBM003 6443
+
+  - name: EM-UAT-912_22
+    protocol: tcp
+#  member EM-UAT-912 22
+
+  - name: EM-UAT-912_2600
+    protocol: tcp
+#  member EM-UAT-912 2600
+
+  - name: EM-UAT-912_2601
+    protocol: tcp
+#  member EM-UAT-912 2601
+
+  - name: EM-UAT-912_2610
+    protocol: tcp
+#  member EM-UAT-912 2610
+
+  - name: EM-UAT-912_3000
+    protocol: udp
+#  member EM-UAT-912 3000
+
+  - name: EM-UAT-912_3001
+    protocol: tcp
+#  member EM-UAT-912 3001
+
+  - name: EM-UAT-912_443
+    protocol: tcp
+#  member EM-UAT-912 443
+
+  - name: EM-UAT-912_6443
+    protocol: tcp
+#  member EM-UAT-912 6443
+
+  - name: EM-UAT-96-8082
+    protocol: tcp
+#  member EM-UAT-96 8082
+#  member EM-UAT-96-HA 8082
+
+  - name: EM-UAT-96BANK2_2600
+    protocol: tcp
+#  member EM-UAT-96BANK2 2600
+
+  - name: EM-UAT-96BANK2_2602
+    protocol: tcp
+#  member EM-UAT-96BANK2 2602
+
+  - name: EM-UAT-96BANK2_3000
+    protocol: udp
+#  member EM-UAT-96BANK2 3000
+
+  - name: EM-UAT-96BANK2_3001
+    protocol: tcp
+#  member EM-UAT-96BANK2 3001
+
+  - name: EM-UAT-96BANK2_443
+    protocol: tcp
+#  member EM-UAT-96BANK2 443
+
+  - name: EM-UAT-96BANK2_6443
+    protocol: tcp
+#  member EM-UAT-96BANK2 6443
+
+  - name: EM-UAT-96_2600
+    protocol: tcp
+#  member EM-UAT-96 2600
+#  member EM-UAT-96-HA 2600
+
+  - name: EM-UAT-96_2601
+    protocol: tcp
+#  member EM-UAT-96 2601
+#  member EM-UAT-96-HA 2601
+
+  - name: EM-UAT-96_2602
+    protocol: tcp
+#  member EM-UAT-96 2602
+#  member EM-UAT-96-HA 2602
+
+  - name: EM-UAT-96_3000
+    protocol: udp
+#  member EM-UAT-96 3000
+#  member EM-UAT-96-HA 3000
+
+  - name: EM-UAT-96_3001
+    protocol: tcp
+#  member EM-UAT-96 3001
+#  member EM-UAT-96-HA 3001
+
+  - name: EM-UAT-96_443
+    protocol: tcp
+#  member EM-UAT-96 443
+    priority 10
+#  member EM-UAT-96-HA 443
+
+  - name: EM-UAT-96_6443
+    protocol: tcp
+#  member EM-UAT-96 6443
+#  member EM-UAT-96-HA 6443
+
+  - name: EM-UAT-96_6445
+    protocol: tcp
+#  member EM-UAT-96 6445
+#  member EM-UAT-96-HA 6445
+
+  - name: EM-UAT-96_6446
+    protocol: tcp
+#  member EM-UAT-96 6446
+#  member EM-UAT-96-HA 6446
+
+  - name: EM-UAT-96_8081
+    protocol: tcp
+#  member EM-UAT-96 8081
+#  member EM-UAT-96-HA 8081
+
+  - name: EM-UAT-BANK3DEV_2600
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 2600
+
+  - name: EM-UAT-BANK3DEV_2601
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 2601
+
+  - name: EM-UAT-BANK3DEV_3000
+    protocol: udp
+#  member EM-UAT-BANK3DEV 3000
+
+  - name: EM-UAT-BANK3DEV_3001
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 3001
+
+  - name: EM-UAT-BANK3DEV_3010
+    protocol: udp
+#  member EM-UAT-BANK3DEV 3010
+
+  - name: EM-UAT-BANK3DEV_3011
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 3011
+
+  - name: EM-UAT-BANK3DEV_443
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 443
+
+  - name: EM-UAT-BANK3DEV_6443
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 6443
+
+  - name: EM-UAT-BANK3DEV_6444
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 6444
+
+  - name: EM-UAT-BANK3DEV_8080
+    protocol: tcp
+#  member EM-UAT-BANK3DEV 8080
+
+  - name: EM-UAT-BANK3QA_22
+    protocol: tcp
+#  member EM-UAT-BANK3QA 22
+
+  - name: EM-UAT-BANK3QA_2600
+    protocol: tcp
+#  member EM-UAT-BANK3QA 2600
+
+  - name: EM-UAT-BANK3QA_2601
+    protocol: tcp
+#  member EM-UAT-BANK3QA 2601
+
+  - name: EM-UAT-BANK3QA_3000 udp
+#  member EM-UAT-BANK3QA 3000
+
+  - name: EM-UAT-BANK3QA_3001
+    protocol: tcp
+#  member EM-UAT-BANK3QA 3001
+
+  - name: EM-UAT-BANK3QA_3010
+    protocol: udp
+#  member EM-UAT-BANK3QA 3010
+
+  - name: EM-UAT-BANK3QA_3011
+    protocol: tcp
+#  member EM-UAT-BANK3QA 3011
+
+  - name: EM-UAT-BANK3QA_443
+    protocol: tcp
+#  member EM-UAT-BANK3QA 443
+
+  - name: EM-UAT-BANK3QA_6443
+    protocol: tcp
+#  member EM-UAT-BANK3QA 6443
+
+  - name: EM-UAT-BANK3QA_6444
+    protocol: tcp
+#  member EM-UAT-BANK3QA 6444
+
+  - name: EM-UAT-BANK3QA_8080
+    protocol: tcp
+#  member EM-UAT-BANK3QA 8080
+
+  - name: EM-UAT-BANK3_2600
+    protocol: tcp
+#  member EM-UAT-BANK3 2600
+
+  - name: EM-UAT-BANK3_2601
+    protocol: tcp
+#  member EM-UAT-BANK3 2601
+
+  - name: EM-UAT-BANK3_3000
+    protocol: udp
+#  member EM-UAT-BANK3 3000
+
+  - name: EM-UAT-BANK3_3001
+    protocol: tcp
+#  member EM-UAT-BANK3 3001
+
+  - name: EM-UAT-BANK3_3010
+    protocol: udp
+#  member EM-UAT-BANK3 3010
+
+  - name: EM-UAT-BANK3_3011
+    protocol: tcp
+#  member EM-UAT-BANK3 3011
+
+  - name: EM-UAT-BANK3_443
+    protocol: tcp
+#  member EM-UAT-BANK3 443
+
+  - name: EM-UAT-BANK3_6443
+    protocol: tcp
+#  member EM-UAT-BANK3 6443
+
+  - name: EM-UAT-BANK3_6444
+    protocol: tcp
+#  member EM-UAT-BANK3 6444
+
+  - name: EM-UAT-BANK3_6445
+    protocol: tcp
+#  member EM-UAT-BANK3 6445
+
+  - name: EM-UAT-BANK3_8080
+    protocol: tcp
+#  member EM-UAT-BANK3 8080
+
+  - name: EM-UAT96CONV_2600
+    protocol: tcp
+#  member EM-UAT96CONV 2600
+
+  - name: EM-UAT96CONV_2601
+    protocol: tcp
+#  member EM-UAT96CONV 2601
+
+  - name: EM-UAT96CONV_3000
+    protocol: udp
+#  member EM-UAT96CONV 3000
+
+  - name: EM-UAT96CONV_3001
+    protocol: tcp
+#  member EM-UAT96CONV 3001
+
+  - name: EM-UAT96CONV_3010
+    protocol: udp
+#  member EM-UAT96CONV 3010
+
+  - name: EM-UAT96CONV_3011
+    protocol: tcp
+#  member EM-UAT96CONV 3011
+
+  - name: EM-UAT96CONV_443
+    protocol: tcp
+#  member EM-UAT96CONV 443
+
+  - name: EM-UAT96CONV_6443
+    protocol: tcp
+#  member EM-UAT96CONV 6443
+
+  - name: EM-UAT96SIMP_2600
+    protocol: tcp
+#  member EM-UAT96SIMP 2600
+
+  - name: EM-UAT96SIMP_2601
+    protocol: tcp
+#  member EM-UAT96SIMP 2601
+
+  - name: EM-UAT96SIMP_3000
+    protocol: udp
+#  member EM-UAT96SIMP 3000
+
+  - name: EM-UAT96SIMP_3001
+    protocol: tcp
+#  member EM-UAT96SIMP 3001
+
+  - name: EM-UAT96SIMP_3010
+    protocol: udp
+#  member EM-UAT96SIMP 3010
+
+  - name: EM-UAT96SIMP_3011
+    protocol: tcp
+#  member EM-UAT96SIMP 3011
+
+  - name: EM-UAT96SIMP_443
+    protocol: tcp
+#  member EM-UAT96SIMP 443
+
+  - name: EM-UAT96SIMP_6443
+    protocol: tcp
+#  member EM-UAT96SIMP 6443
+
+  - name: EMUAT98-DEMO1_2600
+    protocol: tcp
+#  member EM-UAT98DEMO1 2600
+
+  - name: EMUAT98-DEMO1_2602
+    protocol: tcp
+#  member EM-UAT98DEMO1 2602
+
+  - name: EMUAT98-DEMO1_3000
+    protocol: udp
+#  member EM-UAT98DEMO1 3000
+
+  - name: EMUAT98-DEMO1_3001
+    protocol: tcp
+#  member EM-UAT98DEMO1 3001
+
+  - name: EMUAT98-DEMO1_4000
+    protocol: tcp
+#  member EM-UAT98DEMO1 4000
+
+  - name: EMUAT98-DEMO1_443
+    protocol: tcp
+#  member EM-UAT98DEMO1 443
+
+  - name: EMUAT98-DEMO1_6443
+    protocol: tcp
+#  member EM-UAT98DEMO1 6443
+
+  - name: EMUAT98-HEALTH_2600
+    protocol: tcp
+#  member EM-UAT98-HEALTH 2600
+
+  - name: EMUAT98-HEALTH_3000
+    protocol: udp
+#  member EM-UAT98-HEALTH 3000
+
+  - name: EMUAT98-HEALTH_3001
+    protocol: tcp
+#  member EM-UAT98-HEALTH 3001
+
+  - name: EMUAT98-HEALTH_4000
+    protocol: tcp
+#  member EM-UAT98-HEALTH 4000
+
+  - name: EMUAT98-HEALTH_443
+    protocol: tcp
+#  member EM-UAT98-HEALTH 443
+
+  - name: EMUAT98-HEALTH_6443
+    protocol: tcp
+#  member EM-UAT98-HEALTH 6443
+
+  - name: EMV-AIO_80
+    protocol: tcp
+#  member emv-aio 80
+
+  - name: EMV-AIO_9998
+    protocol: tcp
+#  member emv-aio 8080
+
+  - name: EM_UAT_912_6000
+    protocol: tcp
+#  member EM-UAT-912 6000
+
+  - name: EM_UAT_ELAVON_BANKCARD_22
+    protocol: tcp
+#  member EM-UAT96BANK 22
+
+  - name: EM_UAT_ELAVON_BANKCARD_2600
+    protocol: tcp
+#  member EM-UAT96BANK 2600
+
+  - name: EM_UAT_ELAVON_BANKCARD_2601
+    protocol: tcp
+#  member EM-UAT96BANK 2601
+
+  - name: EM_UAT_ELAVON_BANKCARD_3000
+    protocol: udp
+#  member EM-UAT96BANK 3000
+
+  - name: EM_UAT_ELAVON_BANKCARD_3001
+    protocol: tcp
+#  member EM-UAT96BANK 3001
+
+  - name: EM_UAT_ELAVON_BANKCARD_3010 udp
+#  member EM-UAT96BANK 3010
+
+  - name: EM_UAT_ELAVON_BANKCARD_3011
+    protocol: tcp
+#  member EM-UAT96BANK 3011
+
+  - name: EM_UAT_ELAVON_BANKCARD_443
+    protocol: tcp
+#  member EM-UAT96BANK 443
+
+  - name: EM_UAT_ELAVON_BANKCARD_6443
+    protocol: tcp
+#  member EM-UAT96BANK 6443
+
+  - name: EM_UAT_ELAVON_BANKCARD_6444
+    protocol: tcp
+#  member EM-UAT96BANK 6444
+
+  - name: GAT-AIO_4500
+    protocol: tcp
+#  member GAT-AIO 4500
+
+  - name: GAT-AIO_80
+    protocol: tcp
+#  member GAT-AIO 80
+
+  - name: GAT-AIO_8090
+    protocol: tcp
+#  member GAT-AIO 8090
+
+  - name: Geniusex
+    protocol: tcp
+#  member Geniusex---web1 80
+#  member Geniusex---web2 80
+
+  - name: Ipayment
+    protocol: tcp
+#  member Ipayment---web1 80
+#  member Ipayment---web2 80
+
+  - name: IsoSupport
+    protocol: tcp
+#  member isosupport---web1 80
+#  member isosupport---web2 80
+
+  - name: LT-APPSVC-02
+    protocol: tcp
+#  member LT-APPSVC-02 80
+
+  - name: LT-Agents
+    protocol: tcp
+#  member LT-agents-web1 80
+
+  - name: LT-Boarding_80
+    protocol: tcp
+#  member LT-Boarding-01 80
+
+  - name: LT-Core
+    protocol: tcp
+  method least-connection
+#  member LT-Core-01 80
+#  member LT-Core-02 80
+
+  - name: LT-EM-APP_2600
+    protocol: tcp
+#  member LT-EM-APP-01 2600
+#  member LT-EM-APP-02 2600
+
+  - name: LT-EM-APP_2601
+    protocol: tcp
+#  member LT-EM-APP-01 2601
+#  member LT-EM-APP-02 2601
+
+  - name: LT-EM-APP_3000
+    protocol: udp
+#  member LT-EM-APP-01 3000
+#  member LT-EM-APP-02 3000
+
+  - name: LT-EM-APP_3001
+    protocol: tcp
+#  member LT-EM-APP-01 3001
+#  member LT-EM-APP-02 3001
+
+  - name: LT-EM-APP_3010 udp
+#  member LT-EM-APP-01 3010
+#  member LT-EM-APP-02 3010
+
+  - name: LT-EM-APP_3011
+    protocol: tcp
+#  member LT-EM-APP-01 3011
+#  member LT-EM-APP-02 3011
+
+  - name: LT-EM-APP_443
+    protocol: tcp
+#  member LT-EM-APP-01 443
+    priority 10
+#  member LT-EM-APP-02 443
+
+  - name: LT-EM-APP_6443
+    protocol: tcp
+#  member LT-EM-APP-01 6443
+#  member LT-EM-APP-02 6443
+
+  - name: LT-INGTOKEN_8080
+    protocol: tcp
+  method least-connection
+#  member LTINGTOKEN01 8080
+
+  - name: LT-Mobile_8080
+    protocol: tcp
+#  member Mobile-LT-01 8080
+#  member Mobile-LT-02 8080
+
+  - name: LT-MyRoam
+    protocol: tcp
+#  member LT-myroam-web1 80
+
+  - name: LT-Redis_8102
+    protocol: tcp
+#  member L75M6LTERED001 8102
+#  member L75M6LTERED002 8102
+
+  - name: LT-RoamMerchant6_8080
+    protocol: tcp
+#  member LT-RoamMerchant6-01 8080
+#  member LT-RoamMerchant6-02 8080
+
+  - name: LT-Support
+    protocol: tcp
+#  member LT-support-web1 80
+
+  - name: LT-TXN-2_80
+    protocol: tcp
+  method least-connection
+#  member LT-TXN-Router-03 80
+#  member LT-TXN-Router-04 80
+
+  - name: LT-TXN-new-urlswitching
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member LT-TXN-Router-03 80
+#  member LT-TXN-Router-04 80
+
+  - name: LT-TXN-new-urlswitching_9284
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member LT-TXN-Router-03 9284
+#  member LT-TXN-Router-04 9284
+
+  - name: LT-TXN-urlswitching
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member LT-TXN-Router-01 80
+#  member LT-TXN-Router-02 80
+
+  - name: LT-TXN_4500
+    protocol: tcp
+  method least-connection
+#  member LT-TXN-Router-01 4500
+#  member LT-TXN-Router-02 4500
+
+  - name: LT-TXN_80
+    protocol: tcp
+  method least-connection
+#  member LT-TXN-Router-01 80
+#  member LT-TXN-Router-02 80
+
+  - name: LT-TXN_8090
+    protocol: tcp
+  method least-connection
+#  member LT-TXN-Router-01 8090
+#  member LT-TXN-Router-02 8090
+
+  - name: LT-WSAPI-urlswithing
+    protocol: tcp
+  extended-stats
+#  member LT-WSAPI-1 80
+#  member LT-WSAPI-2 80
+
+  - name: LT-WSAPI_80
+    protocol: tcp
+#  member LT-WSAPI-1 80
+#  member LT-WSAPI-2 80
+
+  - name: LogStash_5044
+    protocol: tcp
+#  member W16LOGSTASH01 5044
+#  member W16LOGSTASH02 5044
+
+  - name: LogStash_5045
+    protocol: tcp
+#  member W16LOGSTASH01 5045
+#  member W16LOGSTASH02 5045
+
+  - name: LogStash_9200
+    protocol: tcp
+#  member W16LOGSTASH01 9200
+#  member W16LOGSTASH02 9200
+
+  - name: MCMAPI
+    protocol: tcp
+#  member mcmapi---web1 80
+#  member mcmapi---web2 80
+
+  - name: MPEA-APP-UAT_80
+    protocol: tcp
+#  member UAT-MPEA-APP-01 80
+
+  - name: MPEA-APP-UAT_8888
+    protocol: tcp
+#  member UAT-MPEA-APP-01 8888
+
+  - name: MasterKB_6443
+    protocol: tcp
+#  member L75KBMETCAIOU01 6443
+#  member LTEKBM01 6443
+
+  - name: Mattermost_8065
+    protocol: tcp
+#  member Mattermost 8065
+
+  - name: MyRM6_8080
+    protocol: tcp
+#  member STG-RM6-01 8080
+#  member STG-RM6-02 8080
+
+  - name: MySageMobileSignUp
+    protocol: tcp
+#  member MySageMobileSignUp---web1 80
+#  member MySageMobileSignUp---web2 80
+
+  - name: MySagemobile
+    protocol: tcp
+#  member mysagemobile---web1 80
+#  member mysagemobile---web2 80
+
+  - name: Myroam
+    protocol: tcp
+#  member myroam---web1 80
+#  member myroam---web2 80
+
+  - name: NGP
+    protocol: tcp
+#  member NGP---web1 80
+#  member NGP---web2 80
+
+  - name: Nagios_22
+    protocol: tcp
+#  member Nagios 22
+
+  - name: Nagios_80
+    protocol: tcp
+#  member Nagios 80
+
+  - name: PaymentJack
+    protocol: tcp
+#  member paymentjack---web1 80
+#  member paymentjack---web2 80
+
+  - name: QA-APPSVC-02
+    protocol: tcp
+#  member QA-APPSVC-02 80
+
+  - name: QA-Agents
+    protocol: tcp
+#  member QA-agents-web1 80
+#  member QA-agents-web2 80
+
+  - name: QA-Boarding_80
+    protocol: tcp
+#  member QA-Boarding-01 80
+#  member QA-Boarding-02 80
+
+  - name: QA-CDN-NEW_80
+    protocol: tcp
+#  member QA-CDN-NEW-01 80
+#  member QA-CDN-NEW-02 80
+
+  - name: QA-CaptureRepo_80
+    protocol: tcp
+#  member QA-CaptureRepo-01 80
+#  member QA-CaptureRepo-02 80
+
+  - name: QA-Core
+    protocol: tcp
+  method least-connection
+#  member QA-Core-01 80
+#  member QA-Core-02 80
+
+  - name: QA-EM-APP_2600
+    protocol: tcp
+#  member QA-EM-APP-01 2600
+#  member QA-EM-APP-02 2600
+
+  - name: QA-EM-APP_2601
+    protocol: tcp
+#  member QA-EM-APP-01 2601
+#  member QA-EM-APP-02 2601
+
+  - name: QA-EM-APP_3000
+    protocol: udp
+#  member QA-EM-APP-01 3000
+#  member QA-EM-APP-02 3000
+
+  - name: QA-EM-APP_3001
+    protocol: tcp
+#  member QA-EM-APP-01 3001
+#  member QA-EM-APP-02 3001
+
+  - name: QA-EM-APP_3010
+    protocol: udp
+#  member QA-EM-APP-01 3010
+#  member QA-EM-APP-02 3010
+
+  - name: QA-EM-APP_3011
+    protocol: tcp
+#  member QA-EM-APP-01 3011
+#  member QA-EM-APP-02 3011
+
+  - name: QA-EM-APP_443
+    protocol: tcp
+#  member QA-EM-APP-01 443
+    priority 10
+#  member QA-EM-APP-02 443
+
+  - name: QA-EM-APP_6443
+    protocol: tcp
+#  member QA-EM-APP-01 6443
+#  member QA-EM-APP-02 6443
+
+  - name: QA-Geniusex
+    protocol: tcp
+#  member QA-geniusex-web1 80
+#  member QA-geniusex-web2 80
+
+  - name: QA-HD
+    protocol: tcp
+#  member QA-HD-web1 80
+#  member QA-HD-web2 80
+
+  - name: QA-Mobile_8080
+    protocol: tcp
+#  member QA-Mobile-01 8080
+#  member QA-Mobile-02 8080
+
+  - name: QA-MyRoam
+    protocol: tcp
+#  member QA-myroam-web1 80
+#  member QA-myroam-web2 80
+
+  - name: QA-MySageMobile
+    protocol: tcp
+#  member QA-mysagemobile-web1 80
+#  member QA-mysagemobile-web2 80
+
+  - name: QA-MySageMobileSignup
+    protocol: tcp
+#  member QA-mysagemobilesignup-web1 80
+#  member QA-mysagemobilesignup-web2 80
+
+  - name: QA-MyUswipe
+    protocol: tcp
+#  member QA-myuswipe-web1 80
+#  member QA-myuswipe-web2 80
+
+  - name: QA-NCRRingup_8080
+    protocol: tcp
+#  member QA-NCRRingup-01 8080
+
+  - name: QA-NCRSilver_8080
+    protocol: tcp
+#  member QA-NCRSilver-01 8080
+
+  - name: QA-PaymentJack
+    protocol: tcp
+#  member QA-paymentjack-web1 80
+#  member QA-paymentjack-web2 80
+
+  - name: QA-Payment_80
+    protocol: tcp
+#  member QA-Payment-01 80
+#  member QA-Payment-02 80
+
+  - name: QA-Payroc
+    protocol: tcp
+#  member QA-RM6-Payroc-1 8080
+
+  - name: QA-RM6-FAPS_8080
+    protocol: tcp
+#  member QA-RM6-FAPS-1 8080
+
+  - name: QA-RM6-PAIDE_8080
+    protocol: tcp
+#  member QA-RM6-PAIDE-1 8080
+
+  - name: QA-RM6-PAYA_8080
+    protocol: tcp
+#  member QA-RM6-PAYA-1 8080
+
+  - name: QA-ROAMMerchant6_8080
+    protocol: tcp
+#  member QA-ROAMMerchant6-01 8080
+#  member QA-ROAMMerchant6-02 8080
+
+  - name: QA-Redis_8102
+    protocol: tcp
+#  member L75GWQAERED001 8102
+#  member L75GWQAERED002 8102
+
+  - name: QA-Staples
+    protocol: tcp
+#  member QA-staples-web1 80
+#  member QA-staples-web2 80
+
+  - name: QA-Subway
+    protocol: tcp
+#  member QA-subway-web1 80
+#  member QA-subway-web2 80
+
+  - name: QA-Support
+    protocol: tcp
+#  member QA-support-web1 80
+#  member QA-support-web2 80
+
+  - name: QA-TXN-2_80
+    protocol: tcp
+#  member QA-TXN-Router-02 80
+
+  - name: QA-TXN-new-urlswitching
+    protocol: tcp
+  extended-stats
+#  member QA-TXN-Router-02 80
+
+  - name: QA-TXN-new-urlswitching_9284
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member QA-TXN-Router-02 9284
+
+  - name: QA-TXN-urlswitching
+    protocol: tcp
+  extended-stats
+#  member QA-TXN-Router-01 80
+
+  - name: QA-TXN_4500
+    protocol: tcp
+#  member QA-TXN-Router-01 4500
+
+  - name: QA-TXN_80
+    protocol: tcp
+#  member QA-TXN-Router-01 80
+
+  - name: QA-TXN_8090
+    protocol: tcp
+#  member QA-TXN-Router-01 8090
+
+  - name: QA-Token-APP_8080
+    protocol: tcp
+  method least-connection
+#  member QA-Token-APP-01 8080
+#  member QA-Token-APP-02 8080
+
+  - name: QA-TomcatSupport_8080
+    protocol: tcp
+#  member QA-TomcatSupport-01 8080
+
+  - name: QA-TransService
+    protocol: tcp
+#  member QA-transactionservices-web1 80
+#  member QA-transactionservices-web2 80
+
+  - name: QA-Vantiv
+    protocol: tcp
+#  member QA-vantiv-myacecpt-web1 80
+#  member QA-vantiv-myacecpt-web2 80
+
+  - name: QA-VwalaaMobile
+    protocol: tcp
+#  member QA-vwalaamobile-web1 80
+#  member QA-vwalaamobile-web2 80
+
+  - name: QA-WSAPI-urlswitching
+    protocol: tcp
+  extended-stats
+#  member QA-WSAPI-1 80
+#  member QA-WSAPI-2 80
+
+  - name: QA-WSAPI_80
+    protocol: tcp
+#  member QA-WSAPI-1 80
+#  member QA-WSAPI-2 80
+
+  - name: QA-iPayment
+    protocol: tcp
+#  member QA-ipayment-web1 80
+#  member QA-ipayment-web2 80
+
+  - name: QA-mcm4api
+    protocol: tcp
+#  member QA-mcm4api-web1 80
+#  member QA-mcm4api-web2 80
+
+  - name: QA-ngp
+    protocol: tcp
+#  member QA-ngp-web1 80
+#  member QA-ngp-web2 80
+
+  - name: QA-thdmyroam
+    protocol: tcp
+#  member QA-thdmyroam-web1 80
+#  member QA-thdmyroam-web2 80
+
+  - name: QA-vng
+    protocol: tcp
+#  member QA-vng-web1 80
+#  member QA-vng-web2 80
+
+  - name: RS6-LT_8080
+    protocol: tcp
+#  member W16LTR6WEB01 8080
+#  member W16LTR6WEB02 8080
+
+  - name: RS6-QA_8080
+    protocol: tcp
+#  member W16QAR6WEB01 8080
+#  member W16QAR6WEB02 8080
+
+  - name: RS6-STG_8080
+    protocol: tcp
+#  member W16STR6WEB01 8080
+#  member W16STR6WEB02 8080
+
+  - name: STG-Boarding_80
+    protocol: tcp
+#  member STG-Boarding-01 80
+#  member STG-Boarding-02 80
+
+  - name: STG-CaptureRepo_80
+    protocol: tcp
+#  member STG-CaptureRepo-01 80
+#  member STG-CaptureRepo-02 80
+
+  - name: STG-DBC-SSRS_80
+    protocol: tcp
+#  member STG-DBC-SSRS-01 80
+#  member STG-DBC-SSRS-02 80
+
+  - name: STG-EM-APP_2600
+    protocol: tcp
+#  member STG-EM-APP-01 2600
+#  member STG-EM-APP-02 2600
+
+  - name: STG-EM-APP_2601
+    protocol: tcp
+#  member STG-EM-APP-01 2601
+#  member STG-EM-APP-02 2601
+
+  - name: STG-EM-APP_3000
+    protocol: udp
+#  member STG-EM-APP-01 3000
+#  member STG-EM-APP-02 3000
+
+  - name: STG-EM-APP_3001
+    protocol: tcp
+#  member STG-EM-APP-01 3001
+#  member STG-EM-APP-02 3001
+
+  - name: STG-EM-APP_3010
+    protocol: udp
+#  member STG-EM-APP-01 3010
+#  member STG-EM-APP-02 3010
+
+  - name: STG-EM-APP_3011
+    protocol: tcp
+#  member STG-EM-APP-01 3011
+#  member STG-EM-APP-02 3011
+
+  - name: STG-EM-APP_443
+    protocol: tcp
+#  member STG-EM-APP-01 443
+    priority 10
+#  member STG-EM-APP-02 443
+
+  - name: STG-EM-APP_6443
+    protocol: tcp
+#  member STG-EM-APP-01 6443
+#  member STG-EM-APP-02 6443
+
+  - name: STG-Mobile
+    protocol: tcp
+#  member STG-Mobile-01 8080
+#  member STG-Mobile-02 8080
+
+  - name: STG-NCRRingup_8080
+    protocol: tcp
+#  member STG-NCRRingup-01 8080
+#  member STG-NCRRingup-02 8080
+
+  - name: STG-NCRSilver_8080
+    protocol: tcp
+#  member STG-NCRSilver-01 8080
+#  member STG-NCRSilver-02 8080
+
+  - name: STG-Payment_80
+    protocol: tcp
+#  member STG-Payment-01 80
+#  member STG-Payment-02 80
+
+  - name: STG-RM6-1stPay
+    protocol: tcp
+#  member STG-RM6-1stPay-1 8080
+#  member STG-RM6-1stPay-2 8080
+
+  - name: STG-RM6-Paya
+    protocol: tcp
+#  member STG-RM6-Paya-1 8080
+#  member STG-RM6-Paya-2 8080
+
+  - name: STG-RM6-Payroc
+    protocol: tcp
+#  member STG-RM6-Payroc-1 8080
+#  member STG-RM6-Payroc-2 8080
+
+  - name: STG-Redis_8102
+    protocol: tcp
+#  member L75M6STGRED001 8102
+#  member L75M6STGRED002 8102
+
+  - name: STG-TXN-2_80
+    protocol: tcp
+#  member TXN-Router-03 80
+#  member TXN-Router-04 80
+
+  - name: STG-TXN-new-urlswitching
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member TXN-Router-03 80
+#  member TXN-Router-04 80
+
+  - name: STG-TXN-new-urlswitching_9284
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member TXN-Router-03 9284
+#  member TXN-Router-04 9284
+
+  - name: STG-TXN-urlswitching
+    protocol: tcp
+  method least-connection
+  extended-stats
+#  member STG-TXN-Router-01 80
+#  member STG-TXN-Router-02 80
+
+  - name: STG-TXN_8090
+    protocol: tcp
+#  member STG-TXN-Router-01 8090
+#  member STG-TXN-Router-02 8090
+
+  - name: STG-Token-APP_8080
+    protocol: tcp
+  method least-connection
+#  member STG-Token-APP-01 8080
+#  member STG-Token-APP-02 8080
+
+  - name: STG-WSAPI-urlswitching
+    protocol: tcp
+  extended-stats
+#  member STG-WSAPI-01 80
+#  member STG-WSAPI-02 80
+
+  - name: STG-WSAPI_80
+    protocol: tcp
+#  member STG-WSAPI-01 80
+#  member STG-WSAPI-02 80
+
+  - name: STGCore
+    protocol: tcp
+  method least-connection
+#  member STGCore01 80
+#  member STGCore02 80
+
+  - name: Staging-Syslog_514
+    protocol: udp
+#  member Staging-Syslog 514
+
+  - name: Staples
+    protocol: tcp
+#  member Staples---web1 80
+#  member Staples---web2 80
+
+  - name: Subway
+    protocol: tcp
+#  member subway---web1 80
+#  member subway---web2 80
+
+  - name: THD
+    protocol: tcp
+#  member THD---web1 80
+#  member THD---web2 80
+
+  - name: THD-MyRoam
+    protocol: tcp
+#  member THD-MyRoam---web1 80
+#  member THD-MyRoam---web2 80
+
+  - name: TXNSTG-VIP_4500
+    protocol: tcp
+#  member STG-TXN-Router-01 4500
+#  member STG-TXN-Router-02 4500
+
+  - name: TXNSTG-VIP_80
+    protocol: tcp
+#  member STG-TXN-Router-01 80
+#  member STG-TXN-Router-02 80
+
+  - name: Transaction-Services
+    protocol: tcp
+#  member transaction-services---web1 80
+#  member transaction-services---web2 80
+
+  - name: UAT---DEV01_80
+    protocol: tcp
+#  member UAT---DEV01 80
+
+  - name: UAT---DEV01_8080
+    protocol: tcp
+#  member UAT---DEV01 8080
+
+  - name: UAT---DWS-AIO
+    protocol: tcp
+#  member UAT---DWS-AIO 8080
+#  member UAT---DWS-AIO 80
+
+  - name: UAT---EM-AIO_22
+    protocol: tcp
+#  member UAT---EM-AIO 22
+
+  - name: UAT---EM-AIO_2600
+    protocol: tcp
+#  member UAT---EM-AIO 2600
+
+  - name: UAT---EM-AIO_443
+    protocol: tcp
+#  member UAT---EM-AIO 443
+
+  - name: UAT---HDTEST4_80
+    protocol: tcp
+#  member UAT---HDTEST4 80
+
+  - name: UAT---HDTEST4_8080
+    protocol: tcp
+#  member UAT---HDTEST4 8080
+
+  - name: UAT---HDTESTQP_80
+    protocol: tcp
+#  member UAT---HDTESTQP 80
+
+  - name: UAT---MCM-UAT
+    protocol: tcp
+#  member UAT---MCM-UAT 80
+
+  - name: UAT---MCM-UAT_10000
+    protocol: tcp
+#  member UAT---MCM-UAT 10000
+
+  - name: UAT---MCM-UAT_5000
+    protocol: tcp
+#  member UAT---MCM-UAT 5000
+
+  - name: UAT---MCM-UAT_8080
+    protocol: tcp
+#  member UAT---MCM-UAT 8080
+
+  - name: UAT---MCM5QA05_10000
+    protocol: tcp
+#  member UAT---MCM5QA05 10000
+
+  - name: UAT---MCM5QA05_10001
+    protocol: tcp
+#  member UAT---MCM5QA05 10001
+
+  - name: UAT---MCM5QA05_22
+    protocol: tcp
+#  member UAT---MCM5QA05 22
+
+  - name: UAT---MCM5QA05_8080
+    protocol: tcp
+#  member UAT---MCM5QA05 8080
+
+  - name: UAT---UAT01_80
+    protocol: tcp
+#  member UAT---UAT01 80
+
+  - name: UAT---UAT01_8080
+    protocol: tcp
+#  member UAT---UAT01 8080
+
+  - name: UAT-EM-MultiTenant_22
+    protocol: tcp
+#  member UAT-EM-MultiTenant 22
+
+  - name: UAT-EM-MultiTenant_2600
+    protocol: tcp
+#  member UAT-EM-MultiTenant 2600
+
+  - name: UAT-EM-MultiTenant_2601
+    protocol: tcp
+#  member UAT-EM-MultiTenant 2601
+
+  - name: UAT-EM-MultiTenant_2602
+    protocol: tcp
+#  member UAT-EM-MultiTenant 2602
+
+  - name: UAT-EM-MultiTenant_3000
+    protocol: udp
+#  member UAT-EM-MultiTenant 3000
+
+  - name: UAT-EM-MultiTenant_3001
+    protocol: tcp
+#  member UAT-EM-MultiTenant 3001
+
+  - name: UAT-EM-MultiTenant_443
+    protocol: tcp
+#  member UAT-EM-MultiTenant 443
+
+  - name: UAT-HDTESTQP_8080
+    protocol: tcp
+#  member UAT---HDTESTQP 8080
+
+  - name: UAT-HDTESTQP_9029
+    protocol: tcp
+#  member UAT---HDTESTQP 9029
+
+  - name: UAT-LAMP-NEW_80
+    protocol: tcp
+#  member UAT-LAMP_NEW 80
+
+  - name: UAT-LAMP_80
+    protocol: tcp
+#  member UAT-LAMP 80
+
+  - name: UAT-MCM5-05
+    protocol: tcp
+#  member MCM5-UAT-05 8080
+#  member MCM5-UAT-05 80
+#  member MCM5-UAT-05 10000
+#  member MCM5-UAT-05 10001
+
+  - name: UAT-Merchant-NCR-PayrocGo_10000
+    protocol: tcp
+#  member UAT-Merchant-NCR-Payrocgo 10000
+
+  - name: UAT-Merchant-NCR-Silver_10000
+    protocol: tcp
+#  member UAT-Merchant-NCR-Silver 10000
+
+  - name: UAT-Merchant-NCR_10000
+    protocol: tcp
+#  member UAT-Merchant-NCR 10000
+
+  - name: UAT-Merchant-Paidegateway_10000
+    protocol: tcp
+#  member UAT-Merchant-Paidegatway 10000
+
+  - name: UAT-Merchant-Paya_10000
+    protocol: tcp
+#  member UAT-Merchant-Paya 10000
+
+  - name: UAT-Merchant-Test_10000
+    protocol: tcp
+#  member UAT-Merchant-Test 10000
+
+  - name: UAT-Merchant_10000
+    protocol: tcp
+#  member UAT-Merchant 10000
+
+  - name: UAT-RM6-FAPS_10000
+    protocol: tcp
+#  member UAT-FAPS 10000
+
+  - name: UAT02-APP_10000
+    protocol: tcp
+#  member UAT02-APP 10000
+
+  - name: UAT02-APP_10001
+    protocol: tcp
+#  member UAT02-APP 10001
+
+  - name: UAT02-WEB-APIWS_8080
+    protocol: tcp
+#  member UAT02-WEB-APIWS 8080
+
+  - name: UAT02-WEB-GPS_8080
+    protocol: tcp
+#  member UAT02-WEB-GPS 8080
+
+  - name: UAT02-WEB-MR_8080
+    protocol: tcp
+#  member UAT02-WEB-MR 8080
+
+  - name: UAT02-WEB-RS_8080
+    protocol: tcp
+#  member UAT02-WEB-RS 8080
+
+  - name: UAT02-WEB-TD_8080
+    protocol: tcp
+#  member UAT02-WEB-TD 8080
+
+  - name: UAT96CONV_8080
+    protocol: tcp
+#  member EM-UAT96CONV 8080
+
+  - name: UAT96SIMP_8080
+    protocol: tcp
+#  member EM-UAT96SIMP 8080
+
+  - name: UAT96_8080
+    protocol: tcp
+
+  - name: VNB
+    protocol: tcp
+#  member VNB---web1 80
+#  member VNB---web2 80
+
+  - name: Vantiv-Myaccept
+    protocol: tcp
+#  member Vantiv-myaccept-web1 80
+#  member Vantiv-myaccept-web2 80
+
+  - name: em.uat96bank_8080
+    protocol: tcp
+#  member EM-UAT96BANK 443
+
+  - name: myuswipe
+    protocol: tcp
+#  member myuswipe---web1 80
+#  member myuswipe---web2 80
+
+  - name: payrocgostg
+    protocol: tcp
+#  member payrocgostg-web1 80
+#  member payrocgostg-web2 80
+
+  - name: qapmtint02-urlswitching
+    protocol: tcp
+  extended-stats
+#  member qapmtint02 9048
+
