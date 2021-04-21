@@ -1,4 +1,5 @@
 - member: LT-TXN-Router-04
+  service_group_name: LT-TXN-new-urlswitching_9284
 
 - member: LT-TXN-Router-03
   service_group_name: LT-TXN-new-urlswitching_9284
@@ -7,11 +8,13 @@
   service_group_name: QA-TXN-new-urlswitching_9284
 
 - member: TXN-Router-04
+  service_group_name: STG-TXN-new-urlswitching_9284
 
 - member: TXN-Router-03
   service_group_name: STG-TXN-new-urlswitching_9284
 
 - member: EM-UAT-96-HA
+  service_group_name: EM-UAT-96_2602
 
 - member: EM-UAT-96
   service_group_name: EM-UAT-96_2602
@@ -23,11 +26,13 @@
   service_group_name: qapmtint02-urlswitching
 
 - member: payrocgostg-web2
+  service_group_name: payrocgostg
 
 - member: payrocgostg-web1
   service_group_name: payrocgostg
 
 - member: myuswipe---web2
+  service_group_name: myuswipe
 
 - member: myuswipe---web1
   service_group_name: myuswipe
@@ -36,6 +41,7 @@
   service_group_name: em.uat96bank_8080
 
 - member: Vantiv-myaccept-web2
+  service_group_name: Vantiv-Myaccept
 
 - member: Vantiv-myaccept-web1
   service_group_name: Vantiv-Myaccept
