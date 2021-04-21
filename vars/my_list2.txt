@@ -1,0 +1,1201 @@
+member: LT-TXN-Router-04:9284 	
+
+member: LT-TXN-Router-03:9284 	
+service_group_name: LT-TXN-new-urlswitching_9284
+
+member: QA-TXN-Router-02:9284 	
+service_group_name: QA-TXN-new-urlswitching_9284
+
+member: TXN-Router-04:9284   	
+
+member: TXN-Router-03:9284   	
+service_group_name: STG-TXN-new-urlswitching_9284
+
+member: EM-UAT-96-HA:2602    	
+
+member: EM-UAT-96:2602       	
+service_group_name: EM-UAT-96_2602
+
+member: EM-UAT98DEMO1:2602   	
+service_group_name: EMUAT98-DEMO1_2602
+
+member: qapmtint02:9048      	
+service_group_name: qapmtint02-urlswitching
+
+member: payrocgostg-web2:80  	
+
+member: payrocgostg-web1:80  	
+service_group_name: payrocgostg
+
+member: myuswipe---web2:80   	
+
+member: myuswipe---web1:80   	
+service_group_name: myuswipe
+
+member: EM-UAT96BANK:443     	
+service_group_name: em.uat96bank_8080
+
+member: Vantiv-myaccept-web2:80 	
+
+member: Vantiv-myaccept-web1:80 	
+service_group_name: Vantiv-Myaccept
+
+member: VNB---web2:80        	
+
+member: VNB---web1:80        	
+service_group_name: VNB
+service_group_name: UAT96_8080
+
+member: EM-UAT96SIMP:8080    	
+service_group_name: UAT96SIMP_8080
+
+member: EM-UAT96CONV:8080    	
+service_group_name: UAT96CONV_8080
+
+member: UAT02-WEB-TD:8080    	
+service_group_name: UAT02-WEB-TD_8080
+
+member: UAT02-WEB-RS:8080    	
+service_group_name: UAT02-WEB-RS_8080
+
+member: UAT02-WEB-MR:8080    	
+service_group_name: UAT02-WEB-MR_8080
+
+member: UAT02-WEB-GPS:8080   	
+service_group_name: UAT02-WEB-GPS_8080
+
+member: UAT02-WEB-APIWS:8080 	
+service_group_name: UAT02-WEB-APIWS_8080
+
+member: UAT02-APP:10001      	
+service_group_name: UAT02-APP_10001
+
+member: UAT02-APP:10000      	
+service_group_name: UAT02-APP_10000
+
+member: UAT-FAPS:10000       	
+service_group_name: UAT-RM6-FAPS_10000
+
+member: UAT-Merchant:10000   	
+service_group_name: UAT-Merchant_10000
+
+member: UAT-Merchant-Test:10000 	
+service_group_name: UAT-Merchant-Test_10000
+
+member: UAT-Merchant-Paya:10000 	
+service_group_name: UAT-Merchant-Paya_10000
+
+member: UAT-Merchant-Paidegatway:10000 	
+service_group_name: UAT-Merchant-Paidegateway_10000
+
+member: UAT-Merchant-NCR:10000 	
+service_group_name: UAT-Merchant-NCR_10000
+
+member: UAT-Merchant-NCR-Silver:10000 	
+service_group_name: UAT-Merchant-NCR-Silver_10000
+
+member: UAT-Merchant-NCR-Payrocgo:10000 	
+service_group_name: UAT-Merchant-NCR-PayrocGo_10000
+
+member: MCM5-UAT-05:10001    	
+
+member: MCM5-UAT-05:10000    	
+
+member: MCM5-UAT-05:80       	
+
+member: MCM5-UAT-05:8080     	
+service_group_name: UAT-MCM5-05
+
+member: UAT-LAMP:80          	
+service_group_name: UAT-LAMP_80
+
+member: UAT-LAMP_NEW:80      	
+service_group_name: UAT-LAMP-NEW_80
+
+member: UAT---HDTESTQP:9029  	
+service_group_name: UAT-HDTESTQP_9029
+
+member: UAT---HDTESTQP:8080  	
+service_group_name: UAT-HDTESTQP_8080
+
+member: UAT-EM-MultiTenant:443 	
+service_group_name: UAT-EM-MultiTenant_443
+
+member: UAT-EM-MultiTenant:3001 	
+service_group_name: UAT-EM-MultiTenant_3001
+
+member: UAT-EM-MultiTenant:3000 	
+service_group_name: UAT-EM-MultiTenant_3000
+
+member: UAT-EM-MultiTenant:2602 	
+service_group_name: UAT-EM-MultiTenant_2602
+
+member: UAT-EM-MultiTenant:2601 	
+service_group_name: UAT-EM-MultiTenant_2601
+
+member: UAT-EM-MultiTenant:2600 	
+service_group_name: UAT-EM-MultiTenant_2600
+
+member: UAT-EM-MultiTenant:22 	
+service_group_name: UAT-EM-MultiTenant_22
+
+member: UAT---UAT01:8080     	
+service_group_name: UAT---UAT01_8080
+
+member: UAT---UAT01:80       	
+service_group_name: UAT---UAT01_80
+
+member: UAT---MCM5QA05:8080  	
+service_group_name: UAT---MCM5QA05_8080
+
+member: UAT---MCM5QA05:22    	
+service_group_name: UAT---MCM5QA05_22
+
+member: UAT---MCM5QA05:10001 	
+service_group_name: UAT---MCM5QA05_10001
+
+member: UAT---MCM5QA05:10000 	
+service_group_name: UAT---MCM5QA05_10000
+
+member: UAT---MCM-UAT:8080   	
+service_group_name: UAT---MCM-UAT_8080
+
+member: UAT---MCM-UAT:5000   	
+service_group_name: UAT---MCM-UAT_5000
+
+member: UAT---MCM-UAT:10000  	
+service_group_name: UAT---MCM-UAT_10000
+
+member: UAT---MCM-UAT:80     	
+service_group_name: UAT---MCM-UAT
+
+member: UAT---HDTESTQP:80    	
+service_group_name: UAT---HDTESTQP_80
+
+member: UAT---HDTEST4:8080   	
+service_group_name: UAT---HDTEST4_8080
+
+member: UAT---HDTEST4:80     	
+service_group_name: UAT---HDTEST4_80
+
+member: UAT---EM-AIO:443     	
+service_group_name: UAT---EM-AIO_443
+
+member: UAT---EM-AIO:2600    	
+service_group_name: UAT---EM-AIO_2600
+
+member: UAT---EM-AIO:22      	
+service_group_name: UAT---EM-AIO_22
+
+member: UAT---DWS-AIO:80     	
+
+member: UAT---DWS-AIO:8080   	
+service_group_name: UAT---DWS-AIO
+
+member: UAT---DEV01:8080     	
+service_group_name: UAT---DEV01_8080
+
+member: UAT---DEV01:80       	
+service_group_name: UAT---DEV01_80
+
+member: transaction-services---web2:80 	
+
+member: transaction-services---web1:80 	
+service_group_name: Transaction-Services
+
+member: STG-TXN-Router-02:80 	
+
+member: STG-TXN-Router-01:80 	
+service_group_name: TXNSTG-VIP_80
+
+member: STG-TXN-Router-02:4500 	
+
+member: STG-TXN-Router-01:4500 	
+service_group_name: TXNSTG-VIP_4500
+
+member: THD-MyRoam---web2:80 	
+
+member: THD-MyRoam---web1:80 	
+service_group_name: THD-MyRoam
+
+member: THD---web2:80        	
+
+member: THD---web1:80        	
+service_group_name: THD
+
+member: subway---web2:80     	
+
+member: subway---web1:80     	
+service_group_name: Subway
+
+member: Staples---web2:80    	
+
+member: Staples---web1:80    	
+service_group_name: Staples
+
+member: Staging-Syslog:514   	
+service_group_name: Staging-Syslog_514
+
+member: STGCore02:80         	
+
+member: STGCore01:80         	
+service_group_name: STGCore
+
+member: STG-WSAPI-02:80      	
+
+member: STG-WSAPI-01:80      	
+service_group_name: STG-WSAPI_80
+
+member: STG-WSAPI-02:80      	
+
+member: STG-WSAPI-01:80      	
+service_group_name: STG-WSAPI-urlswitching
+
+member: STG-Token-APP-02:8080 	
+
+member: STG-Token-APP-01:8080 	
+service_group_name: STG-Token-APP_8080
+
+member: STG-TXN-Router-02:8090 	
+
+member: STG-TXN-Router-01:8090 	
+service_group_name: STG-TXN_8090
+
+member: STG-TXN-Router-02:80 	
+
+member: STG-TXN-Router-01:80 	
+service_group_name: STG-TXN-urlswitching
+
+member: TXN-Router-04:80     	
+
+member: TXN-Router-03:80     	
+service_group_name: STG-TXN-new-urlswitching
+
+member: TXN-Router-04:80     	
+
+member: TXN-Router-03:80     	
+service_group_name: STG-TXN-2_80
+
+member: L75M6STGRED002:8102  	
+
+member: L75M6STGRED001:8102  	
+service_group_name: STG-Redis_8102
+
+member: STG-RM6-Payroc-2:8080 	
+
+member: STG-RM6-Payroc-1:8080 	
+service_group_name: STG-RM6-Payroc
+
+member: STG-RM6-Paya-2:8080  	
+
+member: STG-RM6-Paya-1:8080  	
+service_group_name: STG-RM6-Paya
+
+member: STG-RM6-1stPay-2:8080 	
+
+member: STG-RM6-1stPay-1:8080 	
+service_group_name: STG-RM6-1stPay
+
+member: STG-Payment-02:80    	
+
+member: STG-Payment-01:80    	
+service_group_name: STG-Payment_80
+
+member: STG-NCRSilver-02:8080 	
+
+member: STG-NCRSilver-01:8080 	
+service_group_name: STG-NCRSilver_8080
+
+member: STG-NCRRingup-02:8080 	
+
+member: STG-NCRRingup-01:8080 	
+service_group_name: STG-NCRRingup_8080
+
+member: STG-Mobile-02:8080   	
+
+member: STG-Mobile-01:8080   	
+service_group_name: STG-Mobile
+
+member: STG-EM-APP-02:6443   	
+
+member: STG-EM-APP-01:6443   	
+service_group_name: STG-EM-APP_6443
+
+member: STG-EM-APP-02:443    	
+
+member: STG-EM-APP-01:443    	0
+service_group_name: STG-EM-APP_443
+
+member: STG-EM-APP-02:3011   	
+
+member: STG-EM-APP-01:3011   	
+service_group_name: STG-EM-APP_3011
+
+member: STG-EM-APP-02:3010   	
+
+member: STG-EM-APP-01:3010   	
+service_group_name: STG-EM-APP_3010
+
+member: STG-EM-APP-02:3001   	
+
+member: STG-EM-APP-01:3001   	
+service_group_name: STG-EM-APP_3001
+
+member: STG-EM-APP-02:3000   	
+
+member: STG-EM-APP-01:3000   	
+service_group_name: STG-EM-APP_3000
+
+member: STG-EM-APP-02:2601   	
+
+member: STG-EM-APP-01:2601   	
+service_group_name: STG-EM-APP_2601
+
+member: STG-EM-APP-02:2600   	
+
+member: STG-EM-APP-01:2600   	
+service_group_name: STG-EM-APP_2600
+
+member: STG-DBC-SSRS-02:80   	
+
+member: STG-DBC-SSRS-01:80   	
+service_group_name: STG-DBC-SSRS_80
+
+member: STG-CaptureRepo-02:80 	
+
+member: STG-CaptureRepo-01:80 	
+service_group_name: STG-CaptureRepo_80
+
+member: STG-Boarding-02:80   	
+
+member: STG-Boarding-01:80   	
+service_group_name: STG-Boarding_80
+
+member: W16STR6WEB02:8080    	
+
+member: W16STR6WEB01:8080    	
+service_group_name: RS6-STG_8080
+
+member: W16QAR6WEB02:8080    	
+
+member: W16QAR6WEB01:8080    	
+service_group_name: RS6-QA_8080
+
+member: W16LTR6WEB02:8080    	
+
+member: W16LTR6WEB01:8080    	
+service_group_name: RS6-LT_8080
+
+member: QA-vng-web2:80       	
+
+member: QA-vng-web1:80       	
+service_group_name: QA-vng
+
+member: QA-thdmyroam-web2:80 	
+
+member: QA-thdmyroam-web1:80 	
+service_group_name: QA-thdmyroam
+
+member: QA-ngp-web2:80       	
+
+member: QA-ngp-web1:80       	
+service_group_name: QA-ngp
+
+member: QA-mcm4api-web2:80   	
+
+member: QA-mcm4api-web1:80   	
+service_group_name: QA-mcm4api
+
+member: QA-ipayment-web2:80  	
+
+member: QA-ipayment-web1:80  	
+service_group_name: QA-iPayment
+
+member: QA-WSAPI-2:80        	
+
+member: QA-WSAPI-1:80        	
+service_group_name: QA-WSAPI_80
+
+member: QA-WSAPI-2:80        	
+
+member: QA-WSAPI-1:80        	
+service_group_name: QA-WSAPI-urlswitching
+
+member: QA-vwalaamobile-web2:80 	
+
+member: QA-vwalaamobile-web1:80 	
+service_group_name: QA-VwalaaMobile
+
+member: QA-vantiv-myacecpt-web2:80 	
+
+member: QA-vantiv-myacecpt-web1:80 	
+service_group_name: QA-Vantiv
+
+member: QA-transactionservices-web2:80 	
+
+member: QA-transactionservices-web1:80 	
+service_group_name: QA-TransService
+
+member: QA-TomcatSupport-01:8080 	
+service_group_name: QA-TomcatSupport_8080
+
+member: QA-Token-APP-02:8080 	
+
+member: QA-Token-APP-01:8080 	
+service_group_name: QA-Token-APP_8080
+
+member: QA-TXN-Router-01:8090 	
+service_group_name: QA-TXN_8090
+
+member: QA-TXN-Router-01:80  	
+service_group_name: QA-TXN_80
+
+member: QA-TXN-Router-01:4500 	
+service_group_name: QA-TXN_4500
+
+member: QA-TXN-Router-01:80  	
+service_group_name: QA-TXN-urlswitching
+
+member: QA-TXN-Router-02:80  	
+service_group_name: QA-TXN-new-urlswitching
+
+member: QA-TXN-Router-02:80  	
+service_group_name: QA-TXN-2_80
+
+member: QA-support-web2:80   	
+
+member: QA-support-web1:80   	
+service_group_name: QA-Support
+
+member: QA-subway-web2:80    	
+
+member: QA-subway-web1:80    	
+service_group_name: QA-Subway
+
+member: QA-staples-web2:80   	
+
+member: QA-staples-web1:80   	
+service_group_name: QA-Staples
+
+member: L75GWQAERED002:8102  	
+
+member: L75GWQAERED001:8102  	
+service_group_name: QA-Redis_8102
+
+member: QA-ROAMMerchant6-02:8080 	
+
+member: QA-ROAMMerchant6-01:8080 	
+service_group_name: QA-ROAMMerchant6_8080
+
+member: QA-RM6-PAYA-1:8080   	
+service_group_name: QA-RM6-PAYA_8080
+
+member: QA-RM6-PAIDE-1:8080  	
+service_group_name: QA-RM6-PAIDE_8080
+
+member: QA-RM6-FAPS-1:8080   	
+service_group_name: QA-RM6-FAPS_8080
+
+member: QA-RM6-Payroc-1:8080 	
+service_group_name: QA-Payroc
+
+member: QA-Payment-02:80     	
+
+member: QA-Payment-01:80     	
+service_group_name: QA-Payment_80
+
+member: QA-paymentjack-web2:80 	
+
+member: QA-paymentjack-web1:80 	
+service_group_name: QA-PaymentJack
+
+member: QA-NCRSilver-01:8080 	
+service_group_name: QA-NCRSilver_8080
+
+member: QA-NCRRingup-01:8080 	
+service_group_name: QA-NCRRingup_8080
+
+member: QA-myuswipe-web2:80  	
+
+member: QA-myuswipe-web1:80  	
+service_group_name: QA-MyUswipe
+
+member: QA-mysagemobilesignup-web2:80 	
+
+member: QA-mysagemobilesignup-web1:80 	
+service_group_name: QA-MySageMobileSignup
+
+member: QA-mysagemobile-web2:80 	
+
+member: QA-mysagemobile-web1:80 	
+service_group_name: QA-MySageMobile
+
+member: QA-myroam-web2:80    	
+
+member: QA-myroam-web1:80    	
+service_group_name: QA-MyRoam
+
+member: QA-Mobile-02:8080    	
+
+member: QA-Mobile-01:8080    	
+service_group_name: QA-Mobile_8080
+
+member: QA-HD-web2:80        	
+
+member: QA-HD-web1:80        	
+service_group_name: QA-HD
+
+member: QA-geniusex-web2:80  	
+
+member: QA-geniusex-web1:80  	
+service_group_name: QA-Geniusex
+
+member: QA-EM-APP-02:6443    	
+
+member: QA-EM-APP-01:6443    	
+service_group_name: QA-EM-APP_6443
+
+member: QA-EM-APP-02:443     	
+
+member: QA-EM-APP-01:443     	0
+service_group_name: QA-EM-APP_443
+
+member: QA-EM-APP-02:3011    	
+
+member: QA-EM-APP-01:3011    	
+service_group_name: QA-EM-APP_3011
+
+member: QA-EM-APP-02:3010    	
+
+member: QA-EM-APP-01:3010    	
+service_group_name: QA-EM-APP_3010
+
+member: QA-EM-APP-02:3001    	
+
+member: QA-EM-APP-01:3001    	
+service_group_name: QA-EM-APP_3001
+
+member: QA-EM-APP-02:3000    	
+
+member: QA-EM-APP-01:3000    	
+service_group_name: QA-EM-APP_3000
+
+member: QA-EM-APP-02:2601    	
+
+member: QA-EM-APP-01:2601    	
+service_group_name: QA-EM-APP_2601
+
+member: QA-EM-APP-02:2600    	
+
+member: QA-EM-APP-01:2600    	
+service_group_name: QA-EM-APP_2600
+
+member: QA-Core-02:80        	
+
+member: QA-Core-01:80        	
+service_group_name: QA-Core
+
+member: QA-CaptureRepo-02:80 	
+
+member: QA-CaptureRepo-01:80 	
+service_group_name: QA-CaptureRepo_80
+
+member: QA-CDN-NEW-02:80     	
+
+member: QA-CDN-NEW-01:80     	
+service_group_name: QA-CDN-NEW_80
+
+member: QA-Boarding-02:80    	
+
+member: QA-Boarding-01:80    	
+service_group_name: QA-Boarding_80
+
+member: QA-agents-web2:80    	
+
+member: QA-agents-web1:80    	
+service_group_name: QA-Agents
+
+member: QA-APPSVC-02:80      	
+service_group_name: QA-APPSVC-02
+
+member: paymentjack---web2:80 	
+
+member: paymentjack---web1:80 	
+service_group_name: PaymentJack
+
+member: Nagios:80            	
+service_group_name: Nagios_80
+
+member: Nagios:22            	
+service_group_name: Nagios_22
+
+member: NGP---web2:80        	
+
+member: NGP---web1:80        	
+service_group_name: NGP
+
+member: myroam---web2:80     	
+
+member: myroam---web1:80     	
+service_group_name: Myroam
+
+member: mysagemobile---web2:80 	
+
+member: mysagemobile---web1:80 	
+service_group_name: MySagemobile
+
+member: MySageMobileSignUp---web2:80 	
+
+member: MySageMobileSignUp---web1:80 	
+service_group_name: MySageMobileSignUp
+
+member: STG-RM6-02:8080      	
+
+member: STG-RM6-01:8080      	
+service_group_name: MyRM6_8080
+
+member: Mattermost:8065      	
+service_group_name: Mattermost_8065
+
+member: LTEKBM01:6443        	
+
+member: L75KBMETCAIOU01:6443 	
+service_group_name: MasterKB_6443
+
+member: UAT-MPEA-APP-01:8888 	
+service_group_name: MPEA-APP-UAT_8888
+
+member: UAT-MPEA-APP-01:80   	
+service_group_name: MPEA-APP-UAT_80
+
+member: mcmapi---web2:80     	
+
+member: mcmapi---web1:80     	
+service_group_name: MCMAPI
+
+member: W16LOGSTASH02:9200   	
+
+member: W16LOGSTASH01:9200   	
+service_group_name: LogStash_9200
+
+member: W16LOGSTASH02:5045   	
+
+member: W16LOGSTASH01:5045   	
+service_group_name: LogStash_5045
+
+member: W16LOGSTASH02:5044   	
+
+member: W16LOGSTASH01:5044   	
+service_group_name: LogStash_5044
+
+member: LT-WSAPI-2:80        	
+
+member: LT-WSAPI-1:80        	
+service_group_name: LT-WSAPI_80
+
+member: LT-WSAPI-2:80        	
+
+member: LT-WSAPI-1:80        	
+service_group_name: LT-WSAPI-urlswithing
+
+member: LT-TXN-Router-02:8090 	
+
+member: LT-TXN-Router-01:8090 	
+service_group_name: LT-TXN_8090
+
+member: LT-TXN-Router-02:80  	
+
+member: LT-TXN-Router-01:80  	
+service_group_name: LT-TXN_80
+
+member: LT-TXN-Router-02:4500 	
+
+member: LT-TXN-Router-01:4500 	
+service_group_name: LT-TXN_4500
+
+member: LT-TXN-Router-02:80  	
+
+member: LT-TXN-Router-01:80  	
+service_group_name: LT-TXN-urlswitching
+
+member: LT-TXN-Router-04:80  	
+
+member: LT-TXN-Router-03:80  	
+service_group_name: LT-TXN-new-urlswitching
+
+member: LT-TXN-Router-04:80  	
+
+member: LT-TXN-Router-03:80  	
+service_group_name: LT-TXN-2_80
+
+member: LT-support-web1:80   	
+service_group_name: LT-Support
+
+member: LT-RoamMerchant6-02:8080 	
+
+member: LT-RoamMerchant6-01:8080 	
+service_group_name: LT-RoamMerchant6_8080
+
+member: L75M6LTERED002:8102  	
+
+member: L75M6LTERED001:8102  	
+service_group_name: LT-Redis_8102
+
+member: LT-myroam-web1:80    	
+service_group_name: LT-MyRoam
+
+member: Mobile-LT-02:8080    	
+
+member: Mobile-LT-01:8080    	
+service_group_name: LT-Mobile_8080
+
+member: LTINGTOKEN01:8080    	
+service_group_name: LT-INGTOKEN_8080
+
+member: LT-EM-APP-02:6443    	
+
+member: LT-EM-APP-01:6443    	
+service_group_name: LT-EM-APP_6443
+
+member: LT-EM-APP-02:443     	
+
+member: LT-EM-APP-01:443     	0
+service_group_name: LT-EM-APP_443
+
+member: LT-EM-APP-02:3011    	
+
+member: LT-EM-APP-01:3011    	
+service_group_name: LT-EM-APP_3011
+
+member: LT-EM-APP-02:3010    	
+
+member: LT-EM-APP-01:3010    	
+service_group_name: LT-EM-APP_3010
+
+member: LT-EM-APP-02:3001    	
+
+member: LT-EM-APP-01:3001    	
+service_group_name: LT-EM-APP_3001
+
+member: LT-EM-APP-02:3000    	
+
+member: LT-EM-APP-01:3000    	
+service_group_name: LT-EM-APP_3000
+
+member: LT-EM-APP-02:2601    	
+
+member: LT-EM-APP-01:2601    	
+service_group_name: LT-EM-APP_2601
+
+member: LT-EM-APP-02:2600    	
+
+member: LT-EM-APP-01:2600    	
+service_group_name: LT-EM-APP_2600
+
+member: LT-Core-02:80        	
+
+member: LT-Core-01:80        	
+service_group_name: LT-Core
+
+member: LT-Boarding-01:80    	
+service_group_name: LT-Boarding_80
+
+member: LT-agents-web1:80    	
+service_group_name: LT-Agents
+
+member: LT-APPSVC-02:80      	
+service_group_name: LT-APPSVC-02
+
+member: isosupport---web2:80 	
+
+member: isosupport---web1:80 	
+service_group_name: IsoSupport
+
+member: Ipayment---web2:80   	
+
+member: Ipayment---web1:80   	
+service_group_name: Ipayment
+
+member: Geniusex---web2:80   	
+
+member: Geniusex---web1:80   	
+service_group_name: Geniusex
+
+member: GAT-AIO:8090         	
+service_group_name: GAT-AIO_8090
+
+member: GAT-AIO:80           	
+service_group_name: GAT-AIO_80
+
+member: GAT-AIO:4500         	
+service_group_name: GAT-AIO_4500
+
+member: EM-UAT96BANK:6444    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_6444
+
+member: EM-UAT96BANK:6443    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_6443
+
+member: EM-UAT96BANK:443     	
+service_group_name: EM_UAT_ELAVON_BANKCARD_443
+
+member: EM-UAT96BANK:3011    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_3011
+
+member: EM-UAT96BANK:3010    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_3010
+
+member: EM-UAT96BANK:3001    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_3001
+
+member: EM-UAT96BANK:3000    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_3000
+
+member: EM-UAT96BANK:2601    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_2601
+
+member: EM-UAT96BANK:2600    	
+service_group_name: EM_UAT_ELAVON_BANKCARD_2600
+
+member: EM-UAT96BANK:22      	
+service_group_name: EM_UAT_ELAVON_BANKCARD_22
+
+member: EM-UAT-912:6000      	
+service_group_name: EM_UAT_912_6000
+
+member: emv-aio:8080         	
+service_group_name: EMV-AIO_9998
+
+member: emv-aio:80           	
+service_group_name: EMV-AIO_80
+
+member: EM-UAT98-HEALTH:6443 	
+service_group_name: EMUAT98-HEALTH_6443
+
+member: EM-UAT98-HEALTH:443  	
+service_group_name: EMUAT98-HEALTH_443
+
+member: EM-UAT98-HEALTH:4000 	
+service_group_name: EMUAT98-HEALTH_4000
+
+member: EM-UAT98-HEALTH:3001 	
+service_group_name: EMUAT98-HEALTH_3001
+
+member: EM-UAT98-HEALTH:3000 	
+service_group_name: EMUAT98-HEALTH_3000
+
+member: EM-UAT98-HEALTH:2600 	
+service_group_name: EMUAT98-HEALTH_2600
+
+member: EM-UAT98DEMO1:6443   	
+service_group_name: EMUAT98-DEMO1_6443
+
+member: EM-UAT98DEMO1:443    	
+service_group_name: EMUAT98-DEMO1_443
+
+member: EM-UAT98DEMO1:4000   	
+service_group_name: EMUAT98-DEMO1_4000
+
+member: EM-UAT98DEMO1:3001   	
+service_group_name: EMUAT98-DEMO1_3001
+
+member: EM-UAT98DEMO1:3000   	
+service_group_name: EMUAT98-DEMO1_3000
+
+member: EM-UAT98DEMO1:2600   	
+service_group_name: EMUAT98-DEMO1_2600
+
+member: EM-UAT96SIMP:6443    	
+service_group_name: EM-UAT96SIMP_6443
+
+member: EM-UAT96SIMP:443     	
+service_group_name: EM-UAT96SIMP_443
+
+member: EM-UAT96SIMP:3011    	
+service_group_name: EM-UAT96SIMP_3011
+
+member: EM-UAT96SIMP:3010    	
+service_group_name: EM-UAT96SIMP_3010
+
+member: EM-UAT96SIMP:3001    	
+service_group_name: EM-UAT96SIMP_3001
+
+member: EM-UAT96SIMP:3000    	
+service_group_name: EM-UAT96SIMP_3000
+
+member: EM-UAT96SIMP:2601    	
+service_group_name: EM-UAT96SIMP_2601
+
+member: EM-UAT96SIMP:2600    	
+service_group_name: EM-UAT96SIMP_2600
+
+member: EM-UAT96CONV:6443    	
+service_group_name: EM-UAT96CONV_6443
+
+member: EM-UAT96CONV:443     	
+service_group_name: EM-UAT96CONV_443
+
+member: EM-UAT96CONV:3011    	
+service_group_name: EM-UAT96CONV_3011
+
+member: EM-UAT96CONV:3010    	
+service_group_name: EM-UAT96CONV_3010
+
+member: EM-UAT96CONV:3001    	
+service_group_name: EM-UAT96CONV_3001
+
+member: EM-UAT96CONV:3000    	
+service_group_name: EM-UAT96CONV_3000
+
+member: EM-UAT96CONV:2601    	
+service_group_name: EM-UAT96CONV_2601
+
+member: EM-UAT96CONV:2600    	
+service_group_name: EM-UAT96CONV_2600
+
+member: EM-UAT-BANK3:8080    	
+service_group_name: EM-UAT-BANK3_8080
+
+member: EM-UAT-BANK3:6445    	
+service_group_name: EM-UAT-BANK3_6445
+
+member: EM-UAT-BANK3:6444    	
+service_group_name: EM-UAT-BANK3_6444
+
+member: EM-UAT-BANK3:6443    	
+service_group_name: EM-UAT-BANK3_6443
+
+member: EM-UAT-BANK3:443     	
+service_group_name: EM-UAT-BANK3_443
+
+member: EM-UAT-BANK3:3011    	
+service_group_name: EM-UAT-BANK3_3011
+
+member: EM-UAT-BANK3:3010    	
+service_group_name: EM-UAT-BANK3_3010
+
+member: EM-UAT-BANK3:3001    	
+service_group_name: EM-UAT-BANK3_3001
+
+member: EM-UAT-BANK3:3000    	
+service_group_name: EM-UAT-BANK3_3000
+
+member: EM-UAT-BANK3:2601    	
+service_group_name: EM-UAT-BANK3_2601
+
+member: EM-UAT-BANK3:2600    	
+service_group_name: EM-UAT-BANK3_2600
+
+member: EM-UAT-BANK3QA:8080  	
+service_group_name: EM-UAT-BANK3QA_8080
+
+member: EM-UAT-BANK3QA:6444  	
+service_group_name: EM-UAT-BANK3QA_6444
+
+member: EM-UAT-BANK3QA:6443  	
+service_group_name: EM-UAT-BANK3QA_6443
+
+member: EM-UAT-BANK3QA:443   	
+service_group_name: EM-UAT-BANK3QA_443
+
+member: EM-UAT-BANK3QA:3011  	
+service_group_name: EM-UAT-BANK3QA_3011
+
+member: EM-UAT-BANK3QA:3010  	
+service_group_name: EM-UAT-BANK3QA_3010
+
+member: EM-UAT-BANK3QA:3001  	
+service_group_name: EM-UAT-BANK3QA_3001
+
+member: EM-UAT-BANK3QA:3000  	
+service_group_name: EM-UAT-BANK3QA_3000
+
+member: EM-UAT-BANK3QA:2601  	
+service_group_name: EM-UAT-BANK3QA_2601
+
+member: EM-UAT-BANK3QA:2600  	
+service_group_name: EM-UAT-BANK3QA_2600
+
+member: EM-UAT-BANK3QA:22    	
+service_group_name: EM-UAT-BANK3QA_22
+
+member: EM-UAT-BANK3DEV:8080 	
+service_group_name: EM-UAT-BANK3DEV_8080
+
+member: EM-UAT-BANK3DEV:6444 	
+service_group_name: EM-UAT-BANK3DEV_6444
+
+member: EM-UAT-BANK3DEV:6443 	
+service_group_name: EM-UAT-BANK3DEV_6443
+
+member: EM-UAT-BANK3DEV:443  	
+service_group_name: EM-UAT-BANK3DEV_443
+
+member: EM-UAT-BANK3DEV:3011 	
+service_group_name: EM-UAT-BANK3DEV_3011
+
+member: EM-UAT-BANK3DEV:3010 	
+service_group_name: EM-UAT-BANK3DEV_3010
+
+member: EM-UAT-BANK3DEV:3001 	
+service_group_name: EM-UAT-BANK3DEV_3001
+
+member: EM-UAT-BANK3DEV:3000 	
+service_group_name: EM-UAT-BANK3DEV_3000
+
+member: EM-UAT-BANK3DEV:2601 	
+service_group_name: EM-UAT-BANK3DEV_2601
+
+member: EM-UAT-BANK3DEV:2600 	
+service_group_name: EM-UAT-BANK3DEV_2600
+
+member: EM-UAT-96-HA:8081    	
+
+member: EM-UAT-96:8081       	
+service_group_name: EM-UAT-96_8081
+
+member: EM-UAT-96-HA:6446    	
+
+member: EM-UAT-96:6446       	
+service_group_name: EM-UAT-96_6446
+
+member: EM-UAT-96-HA:6445    	
+
+member: EM-UAT-96:6445       	
+service_group_name: EM-UAT-96_6445
+
+member: EM-UAT-96-HA:6443    	
+
+member: EM-UAT-96:6443       	
+service_group_name: EM-UAT-96_6443
+
+member: EM-UAT-96-HA:443     	
+
+member: EM-UAT-96:443        	0
+service_group_name: EM-UAT-96_443
+
+member: EM-UAT-96-HA:3001    	
+
+member: EM-UAT-96:3001       	
+service_group_name: EM-UAT-96_3001
+
+member: EM-UAT-96-HA:3000    	
+
+member: EM-UAT-96:3000       	
+service_group_name: EM-UAT-96_3000
+
+member: EM-UAT-96-HA:2601    	
+
+member: EM-UAT-96:2601       	
+service_group_name: EM-UAT-96_2601
+
+member: EM-UAT-96-HA:2600    	
+
+member: EM-UAT-96:2600       	
+service_group_name: EM-UAT-96_2600
+
+member: EM-UAT-96BANK2:6443  	
+service_group_name: EM-UAT-96BANK2_6443
+
+member: EM-UAT-96BANK2:443   	
+service_group_name: EM-UAT-96BANK2_443
+
+member: EM-UAT-96BANK2:3001  	
+service_group_name: EM-UAT-96BANK2_3001
+
+member: EM-UAT-96BANK2:3000  	
+service_group_name: EM-UAT-96BANK2_3000
+
+member: EM-UAT-96BANK2:2602  	
+service_group_name: EM-UAT-96BANK2_2602
+
+member: EM-UAT-96BANK2:2600  	
+service_group_name: EM-UAT-96BANK2_2600
+
+member: EM-UAT-96-HA:8082    	
+
+member: EM-UAT-96:8082       	
+service_group_name: EM-UAT-96-8082
+
+member: EM-UAT-912:6443      	
+service_group_name: EM-UAT-912_6443
+
+member: EM-UAT-912:443       	
+service_group_name: EM-UAT-912_443
+
+member: EM-UAT-912:3001      	
+service_group_name: EM-UAT-912_3001
+
+member: EM-UAT-912:3000      	
+service_group_name: EM-UAT-912_3000
+
+member: EM-UAT-912:2610      	
+service_group_name: EM-UAT-912_2610
+
+member: EM-UAT-912:2601      	
+service_group_name: EM-UAT-912_2601
+
+member: EM-UAT-912:2600      	
+service_group_name: EM-UAT-912_2600
+
+member: EM-UAT-912:22        	
+service_group_name: EM-UAT-912_22
+
+member: R74ETDEVKBM003:6443  	
+
+member: R74ETDEVKBM001 :6443 	
+
+member:  R74ETDEVKBM002 :6443 	
+service_group_name: DEVKB_6443
+
+member: DEMO-AIO:8080        	
+service_group_name: DEMO-DEMO-AIO_8080
+
+member: DEMO-AIO:5000        	
+service_group_name: DEMO-DEMO-AIO_5000
+
+member: DEMO-AIO:80          	
+service_group_name: DEMO-DEMO-AIO
+
+member: vwalaamobile-web2:80 	
+
+member: vwalaamobile-web1:80 	
+service_group_name: Cynergy---vwalaamobile
+
+member: Confluence-Test:8090 	
+service_group_name: Confluence-test_8090
+
+member: Confluence-Test:8091 	
+service_group_name: Confluence-Test_8091
+
+member: Confluence-Test-Centos:8090 	
+service_group_name: Confluence-Test_8090
+
+member: Confluence-Servicedesk:8091 	
+service_group_name: Confluence-Servicedesk_8091
+
+member: Confluence-Servicedesk:8090 	
+service_group_name: Confluence-Servicedesk_8090
+
+member: CHASE-Payment-Processor:14000 	
+service_group_name: CHASE-Payment-Processor_14000
+
+member: CHASE-Payment-Processor:12002 	
+service_group_name: CHASE-Payment-Processor_12002
+
+member: CHASE-Payment-Processor:12000 	
+service_group_name: CHASE-Payment-Processor_12000
+
+member: CDN---QA-Boarding-01:80 	
+service_group_name: CDN---QA-Boarding-01
+
+member: CDN---boarding1:80   	
+service_group_name: CDN
+
+member: Bamboo_Server:80
+service_group_name: Bamboo_Server_80
+
+member: agents---web2:80
+
+member: agents---web1:80
+service_group_name: Agents
